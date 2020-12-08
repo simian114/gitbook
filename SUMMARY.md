@@ -12,4 +12,6 @@
   * [클린코드](undefined-1/undefined-1/README.md)
     * [Chapter 0. 나는 왜 클린코드 책을 읽는가?](undefined-1/undefined-1/chapter-0.-1.md)
     * [Chapter 1. 클린코드](undefined-1/undefined-1/chapter-1..md)
+* [일기장](undefined/README.md)
+  * [20201208\(화\)](undefined/20201208.md)
 

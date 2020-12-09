@@ -2,7 +2,7 @@
 description: 'CASE, NULL에 대해 학습합니다.'
 ---
 
-# SQL 명령어 실습 - 5
+# SQL 명령어 - 5
 
 ### CASE
 

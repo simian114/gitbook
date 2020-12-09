@@ -2,7 +2,7 @@
 description: 'JOIN, UNION, GROUP BY, HAVING 에 대해 학습합니다.'
 ---
 
-# SQL 명령어 실습 - 2
+# SQL 명령어 - 2
 
 ### JOIN
 

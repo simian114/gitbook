@@ -1,4 +1,4 @@
-# SQL 명령어 실습 - 1
+# SQL 명령어 - 1
 
 [W3의 듀토리얼을 참고했습니다.](https://www.w3schools.com/sql/default.asp)
 

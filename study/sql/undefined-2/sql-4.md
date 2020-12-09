@@ -2,7 +2,7 @@
 description: 'ANY, ALL, SELECT INTO, INSERT INTO SELECT 를 학습합니다.'
 ---
 
-# SQL 명령어 실습 - 4
+# SQL 명령어 - 4
 
 ### ANY and ALL Operator
 

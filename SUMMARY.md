@@ -20,5 +20,6 @@
     * [Chapter 0. 나는 왜 클린코드 책을 읽는가?](study/clean-code/chapter-0.-1.md)
     * [Chapter 1. 클린코드](study/clean-code/chapter-1..md)
 * [일기장](diary/README.md)
+  * [20201209\(수\)](diary/20201209.md)
   * [20201208\(화\)](diary/20201208.md)
 

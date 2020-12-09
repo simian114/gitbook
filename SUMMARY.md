@@ -22,4 +22,6 @@
 * [일기장](diary/README.md)
   * [20201208\(화\)](diary/20201208.md)
   * [20201209\(수\)](diary/20201209.md)
+* [이것저것](undefined/README.md)
+  * [BetterTouchTool와 SpecTacle](undefined/bettertouchtool-spectacle.md)
 

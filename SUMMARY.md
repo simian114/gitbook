@@ -24,5 +24,6 @@
   * [20201209\(수\)](diary/20201209.md)
 * [이것저것](undefined/README.md)
   * [MAC에서 살아남기](undefined/mac/README.md)
+    * [ESC, \`\(역따옴표\)](undefined/mac/esc.md)
     * [화면분할](undefined/mac/bettertouchtool-spectacle.md)
 

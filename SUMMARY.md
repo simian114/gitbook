@@ -25,7 +25,7 @@
 * [이것저것](undefined/README.md)
   * [IDE](undefined/ide/README.md)
     * [RubyMine](undefined/ide/rubymine/README.md)
-      * [Untitled](undefined/ide/rubymine/untitled.md)
+      * [실전이 중요!](undefined/ide/rubymine/untitled.md)
       * [1. Editor Basic](undefined/ide/rubymine/1.-editor-basic.md)
       * [2. Navigation](undefined/ide/rubymine/2.-navigation.md)
       * [3. Completion](undefined/ide/rubymine/3.-completion.md)

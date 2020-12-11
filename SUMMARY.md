@@ -34,6 +34,7 @@
       * [4. Refactoring](undefined/ide/rubymine/4.-refactoring.md)
       * [5. Code Assistance](undefined/ide/rubymine/5.-code-assistance.md)
   * [MAC에서 살아남기](undefined/mac/README.md)
+    * [Vimium](undefined/mac/vimium.md)
     * [트랙패드](undefined/mac/undefined.md)
     * [ESC, \`\(역따옴표\)](undefined/mac/esc.md)
     * [화면분할](undefined/mac/bettertouchtool-spectacle.md)

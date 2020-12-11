@@ -31,17 +31,20 @@ description: VIM 은 너무 대단한 텍스트 편집기다. 이 VIM을 편집�
 
 #### 설치 및 사용법
 
-1. [공식 홈페이지](https://karabiner-elements.pqrs.org/)에 접속해서 다운로드 받자. 설치 이후 권한 설정이 과할정도로 많다. 귀찮아도 해주자.
-2. 이후에는 `preference`을 선택. 그러면 아래와 같은 창이 뜬다.   ![2](../../.gitbook/assets/kara1.png)
-3. `Complex modifications`을 누르자. 아마 지금은 아무것도 없을거다. 이 `Complex modifications`은 유저가 직접 만들어서 사용하거나 또는 인터넷에 다른 사람들이 만들어 놓은 설정 파일을 사용할 수 있다. 나는 만들어져 있는걸 사용할거다.
-4. [karabiner-Complex rules](https://ke-complex-modifications.pqrs.org/?q=vim) 에 들어가자. 등록되어 있는 `vim` 모드가 정말로 많다.
-5. 이 중에서는 각자의 취향대로 선택해서 다운 받으면 된다. 추천 목록은 아래 두 가지다.
-   * `Vim Mode Plus`
-   * `Vimium`
-6. 원하는 걸 선택하고 `Import`를 누르자. 그러면 아까 띄어놨던 설정 창이 다시 뜬다.
+* [공식 홈페이지](https://karabiner-elements.pqrs.org/)에 접속해서 다운로드 받자. 설치 이후 권한 설정이 과할정도로 많다. 귀찮아도 해주자.
+* 이후에는 `preference`을 선택. 그러면 아래와 같은 창이 뜬다.   
 
-   ![3](../../.gitbook/assets/kara2.png)
+![&#xC774;&#xB7F0; &#xC124;&#xC815;&#xCC3D;&#xC740; &#xBCF4;&#xAE30;&#xB9CC;&#xD574;&#xB3C4; &#xBB34;&#xC12D;&#xB2E4;..](../../.gitbook/assets/kara1.png)
 
-7. `Add rule`을 누르고 원하는 기능을 `enable` 하자.
-8. `import` 한 `rule`마다 사용방법이 조금씩은 다른다. `karabiner`가 동작하는 방식은 `hyper` 키 라는걸 정해놓은 다음에 유저가 하이퍼 키를 누르는 순간 모드가 발동하는 방식이다.
+* `Complex modifications`을 누르자. 아마 지금은 아무것도 없을거다. 이 `Complex modifications`은 유저가 직접 만들어서 사용하거나 또는 인터넷에 다른 사람들이 만들어 놓은 설정 파일을 사용할 수 있다. 나는 만들어져 있는걸 사용할거다.
+* [karabiner-Complex rules](https://ke-complex-modifications.pqrs.org/?q=vim) 에 들어가자. 등록되어 있는 `vim` 모드가 정말로 많다.
+* 이 중에서는 각자의 취향대로 선택해서 다운 받으면 된다. 추천 목록은 아래 두 가지다.
+  * `Vim Mode Plus`
+  * `Vimium`
+* 원하는 걸 선택하고 `Import`를 누르자. 그러면 아까 띄어놨던 설정 창이 다시 뜬다.
+
+![&#xB09C; &#xC5EC;&#xAE30;&#xC11C;&#xB294; Vim Mode Plus&#xB97C; &#xC0AC;&#xC6A9;&#xD55C;&#xB2E4;.](../../.gitbook/assets/kara2.png)
+
+* `Add rule`을 누르고 원하는 기능을 `enable` 하자.
+* `import` 한 `rule`마다 사용방법이 조금씩은 다른다. `karabiner`가 동작하는 방식은 `hyper` 키 라는걸 정해놓은 다음에 유저가 하이퍼 키를 누르는 순간 모드가 발동하는 방식이다.
 

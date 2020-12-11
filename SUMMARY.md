@@ -25,6 +25,7 @@
   * [20201210\(목\)](diary/20201210.md)
   * [20201211\(금\)](diary/20201211.md)
 * [이것저것](undefined/README.md)
+  * [Untitled](undefined/untitled.md)
   * [IDE](undefined/ide/README.md)
     * [RubyMine](undefined/ide/rubymine/README.md)
       * [실전이 중요!](undefined/ide/rubymine/untitled.md)

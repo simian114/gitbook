@@ -6,5 +6,9 @@
 이 책이 궁금하시다면... 👉[여기](http://www.yes24.com/Product/Goods/22744867)를 누르세요
 {% endhint %}
 
+{% page-ref page="theory/" %}
+
+{% page-ref page="practice/" %}
+
 
 

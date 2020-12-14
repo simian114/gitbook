@@ -31,7 +31,7 @@ description: 참 신기해
   test = Hash.new(0)
   ```
 
-## 4.3 블록과 반복자.
+## 4.3 블록과 반복자
 
 ```ruby
 for i in 0..4

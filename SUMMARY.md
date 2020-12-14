@@ -2,6 +2,11 @@
 
 * [README.md](README.md)
 * [공부](study/README.md)
+  * [루비](study/undefined/README.md)
+    * [1부 루비 기본 다지기](study/undefined/1/README.md)
+      * [Chapter2 Ruby.new](study/undefined/1/chapter2-ruby.new.md)
+      * [Chapter3. 클래스, 객체, 변수](study/undefined/1/chapter3..md)
+      * [Chapter4. 컨테이너, 블록, 반복자](study/undefined/1/chapter4..md)
   * [SQL](study/sql/README.md)
     * [이론](study/sql/undefined/README.md)
       * [1강 데이터베이스](study/sql/undefined/1.md)

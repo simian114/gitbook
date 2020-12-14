@@ -112,29 +112,30 @@ end
     * 정답은 `아니오` 다.
     * 변수는 단순히 객체에 대한 `참조`를 가지고 있을 뿐이다.
 
-      \`\`\`Ruby
+```ruby
+person1 = "Tim"
+person2 = person1
 
-      person1 = "Tim"
+person1[0] = 'J'
+puts person1
+puts person2
+```
 
-      person2 = person1
+* 위의 결과 `person1` 과 `person2`는 같은가?
+  * 정답은 같다.
+  * 왜냐하면 변수 perso1 은 "Tim" 이라는 문자열 객체에 대한 참조를 가지고 있었고, person2 는 person1을 받았다. 즉 "Tim" 이라는 문자열 객체의 참조를 받은 것. 따라서 객체 자체가 바뀌면 person1이나 person2 가 가리키는 문자열 객체 모두 바뀐다.
+* `freeze` 메써드
 
-person1\[0\] = 'J' puts person1 puts person2
+  * 이 메써드는 객체의 상태를 변경할 수 없게 만든다.
 
-```text
-- 위의 결과 `person1` 과 `person2`는 같은가?
-  - 정답은 같다.
-  - 왜냐하면 변수 perso1 은 "Tim" 이라는 문자열 객체에 대한 참조를 가지고 있었고, person2 는 person1을 받았다. 즉 "Tim" 이라는 문자열 객체의 참조를 받은 것. 따라서 객체 자체가 바뀌면 person1이나 person2 가 가리키는 문자열 객체 모두 바뀐다.
-
-- `freeze` 메써드
-  - 이 메써드는 객체의 상태를 변경할 수 없게 만든다.
-  ```Ruby
+  ```ruby
   person1 = "Tim"
   person2 = person1
 
   person1.freeze
 
   person1[0] = 'J'
-```
+  ```
 
-* 위와 같이 동결시키고 상태를 변경하려고 시도하면 예외가 발생한다.
+  * 위와 같이 동결시키고 상태를 변경하려고 시도하면 예외가 발생한다.
 

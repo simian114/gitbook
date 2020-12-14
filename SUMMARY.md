@@ -42,8 +42,9 @@
       * [4. Refactoring](odds_and_ends/ide/rubymine/4.-refactoring.md)
       * [5. Code Assistance](odds_and_ends/ide/rubymine/5.-code-assistance.md)
   * [MAC에서 살아남기](odds_and_ends/mac/README.md)
+    * [Alfred - Spotlight 업그레이드](odds_and_ends/mac/alfred-spotlight.md)
     * [Vimium](odds_and_ends/mac/vimium.md)
-    * [트랙패드](odds_and_ends/mac/undefined.md)
-    * [ESC, \`\(역따옴표\)](odds_and_ends/mac/esc.md)
-    * [화면분할](odds_and_ends/mac/bettertouchtool-spectacle.md)
+    * [BetterTouchTool - 트랙패드](odds_and_ends/mac/undefined.md)
+    * [구름 입력기 - ESC, \`](odds_and_ends/mac/esc.md)
+    * [Spectacle - 화면 분할](odds_and_ends/mac/bettertouchtool-spectacle.md)
 

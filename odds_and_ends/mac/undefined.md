@@ -2,7 +2,7 @@
 description: 14만원...
 ---
 
-# 트랙패드
+# BetterTouchTool - 트랙패드
 
 ### 1. 설치 및 환경설정
 

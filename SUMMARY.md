@@ -30,6 +30,7 @@
   * [20201209\(수\)](diary/20201209.md)
   * [20201210\(목\)](diary/20201210.md)
   * [20201211\(금\)](diary/20201211.md)
+  * [20201214\(월\)](diary/20201214.md)
 * [이것저것](odds_and_ends/README.md)
   * [Untitled](odds_and_ends/untitled.md)
   * [IDE](odds_and_ends/ide/README.md)

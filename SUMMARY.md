@@ -3,6 +3,7 @@
 * [README.md](README.md)
 * [42SEOUL](42seoul/README.md)
   * [ft\_transcendence](42seoul/ft_transcendence.md)
+  * [해커톤](42seoul/undefined.md)
 * [공부](study/README.md)
   * [루비](study/ruby/README.md)
     * [1부 루비 기본 다지기](study/ruby/1/README.md)

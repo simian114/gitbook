@@ -5,6 +5,8 @@
   * [ft\_transcendence](42seoul/ft_transcendence.md)
   * [해커톤](42seoul/undefined-1.md)
 * [공부](study/README.md)
+  * [네트워크](study/undefined/README.md)
+    * [Chapter1. 네트워크란 무엇인가?](study/undefined/chapter1..md)
   * [루비](study/ruby/README.md)
     * [1부 루비 기본 다지기](study/ruby/1/README.md)
       * [Chapter2. Ruby.new](study/ruby/1/chapter2.md)

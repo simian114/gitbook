@@ -40,7 +40,7 @@
     * [Chapter3. 함수](study/clean_code/chapter3.md)
 * [일기장](diary/README.md)
   * [2020](diary/2020/README.md)
-    * [12월](diary/2020/12/README.md)
+    * [December](diary/2020/12/README.md)
       * [20201208\(화\)](diary/2020/12/20201208.md)
       * [20201209\(수\)](diary/2020/12/20201209.md)
       * [20201210\(목\)](diary/2020/12/20201210.md)

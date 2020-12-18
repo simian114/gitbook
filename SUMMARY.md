@@ -43,6 +43,7 @@
   * [20201215\(화\)](diary/20201215.md)
   * [20201216\(수\)](diary/20201216.md)
   * [20201217\(목\)](diary/20201217.md)
+  * [20201218\(금\)](diary/20201218.md)
 * [이것저것](odds_and_ends/README.md)
   * [Untitled](odds_and_ends/untitled.md)
   * [IDE](odds_and_ends/ide/README.md)

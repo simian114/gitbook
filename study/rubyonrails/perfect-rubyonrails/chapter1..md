@@ -53,7 +53,9 @@
 
 > 레일스의 설계 철학
 
-* 레일즈의 설계 철학 1. DRY\(Don't Repeat Yourself\): 같은 코드를 반복하지 말 것 2. CoC\(Convention over Configuration\): 설정보다 규익이 중요
+* 레일즈의 설계 철학
+  * DRY\(Don't Repeat Yourself\): 같은 코드를 반복하지 말 것
+  * CoC\(Convention over Configuration\): 설정보다 규익이 중요
 * 레일스는 소스 코드 내부에서 같은 처리 또는 정의를 반복해서 사용하는 것을 극도로 싫어한다.
   * 그 예로 데이터베이스 스키마 정의를 설정 파일로 별도 작성하지 않아도 된다.
   * 그냥 데이터베이스에 테이블을 만드는 것만으로도 Rails가 모두 알아서 해준다.

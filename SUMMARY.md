@@ -50,6 +50,7 @@
       * [20201216\(수\)](diary/2020/12/20201216.md)
       * [20201217\(목\)](diary/2020/12/20201217.md)
       * [20201218\(금\)](diary/2020/12/20201218.md)
+      * [20201219\(토\)](diary/2020/12/20201219.md)
 * [이것저것](odds_and_ends/README.md)
   * [Untitled](odds_and_ends/untitled.md)
   * [IDE](odds_and_ends/ide/README.md)

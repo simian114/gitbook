@@ -31,22 +31,25 @@ description: IDE를 사용하면서 자주 사용하는 단축키를 정리합�
    * `commad + E`
 2. 최근 작업 위치
    * `command + shift + E`
-   
+
 ## 탭 스플릿
 
-- `ctrl + alt + ]` - move tab to the right splitter (or create a new one if it's the rightmost splitter)
-- `ctrl + alt + [` - move tab to the left splitte 
-- `ctrl + alt + P` - move tab to the splitter above
-- `ctrl + alt + '` - move tab to the splitter below (or create a new one if it's the bottom splitter)
-- `alt + shift + [` - stretch splitter left
-- `alt + shift + ]` - stretch splitter right
-- `alt + shift + =` - equal size splitter
-- `alt + shift + M` - maximize/restore splitter
+* `ctrl + alt + ]` - move tab to the right splitter \(or create a new one if it's the rightmost splitter\)
+* `ctrl + alt + [` - move tab to the left splitte 
+* `ctrl + alt + P` - move tab to the splitter above
+* `ctrl + alt + '` - move tab to the splitter below \(or create a new one if it's the bottom splitter\)
+* `alt + shift + [` - stretch splitter left
+* `alt + shift + ]` - stretch splitter right
+* `alt + shift + =` - equal size splitter
+* `alt + shift + M` - maximize/restore splitter
 
 ### To move focus between splitters:
 
-- `ctrl+alt+shift+]` - right
-- `ctrl+alt+shift+[` - left
-- `ctrl+alt+shift+P` - up
--` ctrl+alt+shift+;` - down
-- `ctrl + alt + .` - (built-in action) recommended binding for Goto Next Splitter action
+* `ctrl+alt+shift+]` - right
+* `ctrl+alt+shift+[` - left
+* `ctrl+alt+shift+P` - up
+
+  -`ctrl+alt+shift+;` - down
+
+* `ctrl + alt + .` - \(built-in action\) recommended binding for Goto Next Splitter action
+

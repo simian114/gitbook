@@ -56,7 +56,7 @@ description: IDE를 사용하면서 자주 사용하는 단축키를 정리합�
 -----
 ## 터미널 조작하기
 
-1. `Command + \``: 터미널 오픈
+1. `Command + \` `: 터미널 오픈
 2. `Command + T`: 새로운 탭 열기
 3. `Command + Shift + [, ]`: 터미널 탭 이동
 

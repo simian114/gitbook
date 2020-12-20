@@ -47,4 +47,4 @@ description: VIM 은 너무 대단한 텍스트 편집기다. 이 VIM을 편집�
 
 * `Add rule`을 누르고 원하는 기능을 `enable` 하자.
 * `import` 한 `rule`마다 사용방법이 조금씩은 다른다. `karabiner`가 동작하는 방식은 `hyper` 키 라는걸 정해놓은 다음에 유저가 하이퍼 키를 누르는 순간 모드가 발동하는 방식이다.
-
+* [내가 사용하는 모드](https://github.com/Vonng/Capslock)

@@ -10,7 +10,7 @@
     * [Perfect RubyOnRails](study/rubyonrails/perfect-rubyonrails/README.md)
       * [Chapter1. 소개](study/rubyonrails/perfect-rubyonrails/chapter1..md)
       * [Chapter2. RubyOnRails 기본](study/rubyonrails/perfect-rubyonrails/chapter2.-rubyonrails.md)
-      * [Untitled](study/rubyonrails/perfect-rubyonrails/untitled.md)
+      * [Chapter3. 스캐폴딩](study/rubyonrails/perfect-rubyonrails/untitled.md)
   * [네트워크](study/undefined/README.md)
     * [Chapter1. 네트워크란 무엇인가?](study/undefined/chapter1..md)
   * [루비](study/ruby/README.md)

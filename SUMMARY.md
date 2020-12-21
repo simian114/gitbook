@@ -54,7 +54,7 @@
       * [20201218\(금\)](diary/2020/12/20201218.md)
       * [20201219\(토\)](diary/2020/12/20201219.md)
 * [이것저것](odds_and_ends/README.md)
-  * [Untitled](odds_and_ends/untitled.md)
+  * [용어](odds_and_ends/untitled.md)
   * [IDE](odds_and_ends/ide/README.md)
     * [RubyMine](odds_and_ends/ide/rubymine/README.md)
       * [실전이 중요!](odds_and_ends/ide/rubymine/untitled.md)

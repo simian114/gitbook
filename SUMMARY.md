@@ -41,6 +41,7 @@
     * [Chapter2. 의미있는 이름](study/clean_code/chapter2.md)
     * [Chapter3. 함수](study/clean_code/chapter3.md)
     * [Chapter4. 주석](study/clean_code/chapter4..md)
+    * [형식 맞추기](study/clean_code/undefined.md)
 * [일기장](diary/README.md)
   * [2020](diary/2020/README.md)
     * [December](diary/2020/12/README.md)

@@ -135,7 +135,7 @@ link_to(body, url, [, html_options])
 
 ### 3.3.1 `show` 액션 메서드
 
-### `before_action`
+#### `before_action`
 
 * ```ruby
   before_action method, only: action

@@ -6,6 +6,7 @@
   * [해커톤](42seoul/undefined-1.md)
 * [공부](study/README.md)
   * [RubyOnRails](study/rubyonrails/README.md)
+    * [한 눈에 읽는 루비 온 레일즈](study/rubyonrails/undefined.md)
     * [Perfect RubyOnRails](study/rubyonrails/perfect-rubyonrails/README.md)
       * [Chapter1. 소개](study/rubyonrails/perfect-rubyonrails/chapter1..md)
       * [Chapter2. RubyOnRails 기본](study/rubyonrails/perfect-rubyonrails/chapter2.-rubyonrails.md)

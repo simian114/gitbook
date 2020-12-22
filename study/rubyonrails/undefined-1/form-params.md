@@ -71,7 +71,7 @@ description: 동작하는 순서를 따라가면서 분석함
   params.require(:post)
   ```
 
-* 2번에서 필터링 하는 방법은
+* 2번에서 필터링 하는 방법은 \([필터링을 하는 이유](https://chancethecoder.tistory.com/8)\)
 
   ```ruby
   params.require(:post).permit(:title, :content)
@@ -87,4 +87,6 @@ description: 동작하는 순서를 따라가면서 분석함
   def create
     @post = Post.new(params.require(:post).permit(:title, :content))
   ```
+
+
 

@@ -6,6 +6,8 @@
   * [해커톤](42seoul/undefined-1.md)
 * [공부](study/README.md)
   * [RubyOnRails](study/rubyonrails/README.md)
+    * [기타](study/rubyonrails/undefined-1/README.md)
+      * [form으로 전달되는 params를 분석해보자](study/rubyonrails/undefined-1/form-params.md)
     * [한 눈에 읽는 루비 온 레일즈](study/rubyonrails/undefined.md)
     * [Perfect RubyOnRails](study/rubyonrails/perfect-rubyonrails/README.md)
       * [Chapter1. 소개](study/rubyonrails/perfect-rubyonrails/chapter1..md)

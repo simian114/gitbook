@@ -57,6 +57,7 @@
       * [20201226\(토\)](diary/2020/12/20201226.md)
       * [20201228\(월\)](diary/2020/12/20201228.md)
       * [20201229\(화\)](diary/2020/12/20201229.md)
+      * [20201230\(수\)](diary/2020/12/20201230.md)
 * [이것저것](odds_and_ends/README.md)
   * [독서](odds_and_ends/undefined/README.md)
     * [클린코드](odds_and_ends/undefined/clean_code/README.md)

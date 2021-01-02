@@ -15,6 +15,7 @@
       * [Chapter2. RubyOnRails 기본](study/rubyonrails/perfect-rubyonrails/chapter2.-rubyonrails.md)
       * [Chapter3. 스캐폴딩](study/rubyonrails/perfect-rubyonrails/untitled.md)
       * [Chapter7. 라우팅](study/rubyonrails/perfect-rubyonrails/chapter7..md)
+      * [Chapter8. 테스트](study/rubyonrails/perfect-rubyonrails/chapter8..md)
   * [루비](study/ruby/README.md)
     * [1부 루비 기본 다지기](study/ruby/1/README.md)
       * [Chapter2. Ruby.new](study/ruby/1/chapter2.md)

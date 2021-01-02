@@ -10,7 +10,7 @@ description: IDE를 사용하면서 자주 사용하는 단축키를 정리합�
 
 코드를 작성하고 실행을 하려고 보니깐 실행 버튼이 눌리지 않는다... 아래 방법으로 임시\(?\) 해
 
-![&#xC2E4;&#xD589; &#xBC84;&#xD2BC;&#xC774; &#xB20C;&#xB9AC;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;...](../../../.gitbook/assets/rubymine1.png)
+![&#xC2E4;&#xD589; &#xBC84;&#xD2BC;&#xC774; &#xB20C;&#xB9AC;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;...](../../../../.gitbook/assets/rubymine1.png)
 
 오른쪽에 보이는 `작은 터미널`을 누르자.\(`Control` 연타\) 그러면 `Run Anything` 이라는 팝업이 뜬다. 창에다가 `ruby file_name.rb` 를 입력하자. 이후부터는 `Ctrl + R` 로 파일 실행이 가능해진다. 팝업창에는 이전 기록들이 모두 남아 있기 때문에 단위테스트가 중요한 루비에서는 매우 유용할것으로 보인다.
 

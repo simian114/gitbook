@@ -1,20 +1,16 @@
 ---
-description: 이게 정말 기본인가..?
+description: 루비 언어를 학습합니다.
 ---
 
-# 1부 루비 기본 다지기
+# 루비
 
-{% page-ref page="chapter2.md" %}
+![https://ruby-doc.com/docs/ProgrammingRuby/](../../.gitbook/assets/.jpg.jpeg)
 
-{% page-ref page="chapter3.md" %}
+{% hint style="info" %}
+이 책이 궁금하시다면...  👉[여기](http://www.yes24.com/Product/Goods/22906810)를 누르세요
+{% endhint %}
 
-{% page-ref page="chapter4.md" %}
-
-{% page-ref page="chapter5..md" %}
-
-{% page-ref page="chapter6..md" %}
-
-{% page-ref page="chapter8..md" %}
+{% page-ref page="1/" %}
 
 
 

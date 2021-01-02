@@ -18,7 +18,7 @@
       * [Chapter8. 테스트](study/rubyonrails/perfect-rubyonrails/chapter8..md)
   * [루비](study/ruby/README.md)
     * [루비 객체와 클래스](study/ruby/undefined.md)
-    * [1부 루비 기본 다지기](study/ruby/1/README.md)
+    * [곡괭이](study/ruby/1/README.md)
       * [Chapter2. Ruby.new](study/ruby/1/chapter2.md)
       * [Chapter3. 클래스, 객체, 변수](study/ruby/1/chapter3.md)
       * [Chapter4. 컨테이너, 블록, 반복자](study/ruby/1/chapter4.md)

@@ -42,6 +42,7 @@
   * [2021](diary/2021/README.md)
     * [January](diary/2021/january/README.md)
       * [20210101\(금\)](diary/2021/january/20200101.md)
+      * [20210102\(토\)](diary/2021/january/20210102.md)
   * [2020](diary/2020/README.md)
     * [December](diary/2020/12/README.md)
       * [20201208\(화\)](diary/2020/12/20201208.md)

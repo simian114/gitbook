@@ -208,7 +208,7 @@ description: '''루비를 깨우치다'' 책의 5장을읽고 정리했습니다
 * 
 ![&#xC2E4;&#xC81C; RClass&#xC640; rb\_classext\_struct](../../.gitbook/assets/5-21.png)
 
-## 정
+## 정리 
 
 ### 루비 객체
 

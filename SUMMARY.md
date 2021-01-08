@@ -111,4 +111,5 @@
       * [20210105\(화\)](undefined-1/diary/2021/january/20210105.md)
       * [20210106\(수\)](undefined-1/diary/2021/january/20210106.md)
       * [20210107\(목\)](undefined-1/diary/2021/january/20210107.md)
+      * [20210108\(금\)](undefined-1/diary/2021/january/20210108.md)
 

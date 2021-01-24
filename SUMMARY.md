@@ -54,7 +54,7 @@
     * [Chapter7-2. 객체](undefined/javascript/undefined/chapter7-2..md)
     * [Chapter8. 표준객체](undefined/javascript/undefined/chapter8..md)
     * [Chapter9. DOM](undefined/javascript/undefined/chapter9.-dom.md)
-  * [Untitled](undefined/javascript/untitled.md)
+  * [이벤트 위임](undefined/javascript/untitled.md)
 * [BackboneJS](undefined/backbonejs/README.md)
   * [ISSUE](undefined/backbonejs/issue.md)
   * [Absolute Beginner](undefined/backbonejs/absolute-beginner/README.md)

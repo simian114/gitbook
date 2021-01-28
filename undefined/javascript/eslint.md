@@ -1,6 +1,8 @@
 # ESlint
 
-[참고 사이트](https://travishorn.com/setting-up-eslint-on-vs-code-with-airbnb-javascript-style-guide-6eb78a535ba6)
+[참고 사이트1](https://travishorn.com/setting-up-eslint-on-vs-code-with-airbnb-javascript-style-guide-6eb78a535ba6)
+
+[참고 사이트2](https://www.npmjs.com/package/eslint-config-airbnb)
 
 ## ESlint
 

@@ -4,7 +4,8 @@
 
 ## 42SEOUL <a id="42seoul-1"></a>
 
-* [ft\_transcendence](42seoul-1/ft_transcendence.md)
+* [ft\_transcendence](42seoul-1/ft_transcendence/README.md)
+  * [설계](42seoul-1/ft_transcendence/undefined.md)
 
 ## 공부
 
@@ -33,6 +34,7 @@
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
   * [기타](undefined/rubyonrails/undefined-1/README.md)
+    * [이미지 넣는 방법](undefined/rubyonrails/undefined-1/undefined.md)
     * [form으로 전달되는 params를 분석해보자](undefined/rubyonrails/undefined-1/form-params.md)
     * [view helper로 디버깅 하는 방법](undefined/rubyonrails/undefined-1/view-helper.md)
   * [한 눈에 읽는 루비 온 레일즈](undefined/rubyonrails/undefined.md)
@@ -133,4 +135,5 @@
       * [20210125\(월\)](undefined-1/diary/2021/january/20210125.md)
       * [20210126\(화\)](undefined-1/diary/2021/january/20210126.md)
       * [20210127\(수\)](undefined-1/diary/2021/january/20210127.md)
+      * [20210128\(목\)](undefined-1/diary/2021/january/20210128.md)
 

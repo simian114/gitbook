@@ -12,7 +12,7 @@ description: 동작하는 순서를 따라가면서 분석함
 
 * `input box`를 보면 `name="post[title]"` 와 `name="post[content]"` 을 볼 수 있다. \(`hoho` 는 나중에 필터링 해야함 \)
 
-![form\_with &#xB85C; &#xC0DD;&#xC131;&#xB41C; html](../../../.gitbook/assets/form_html.png)
+![form\_with &#xB85C; &#xC0DD;&#xC131;&#xB41C; html](../../.gitbook/assets/form_html.png)
 
 ### 2. 제출 버튼을 누르기 전에 액션 메서드와 VIEW를 조금 수정하자
 
@@ -46,7 +46,7 @@ description: 동작하는 순서를 따라가면서 분석함
   })
   ```
 
-![params &#xCD9C;&#xB825; create.html.erb&#xC5D0;&#xC11C; &#xCD9C;&#xB825;&#xD558;&#xAC8C; &#xB9CC;&#xB4E4;&#xC5C8;&#xB2E4;.](../../../.gitbook/assets/params.png)
+![params &#xCD9C;&#xB825; create.html.erb&#xC5D0;&#xC11C; &#xCD9C;&#xB825;&#xD558;&#xAC8C; &#xB9CC;&#xB4E4;&#xC5C8;&#xB2E4;.](../../.gitbook/assets/params.png)
 
 ### 4.  입력값 가져오기
 

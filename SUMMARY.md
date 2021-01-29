@@ -59,6 +59,7 @@
     * [Chapter9. DOM](undefined/javascript/undefined/chapter9.-dom.md)
   * [이벤트 위임](undefined/javascript/untitled.md)
 * [BackboneJS](undefined/backbonejs/README.md)
+  * [index.html.erb와 BackboneJS의 결합](undefined/backbonejs/index.html.erb-backbonejs.md)
   * [백본 모델과 컬렉션에서 fetch 를 통해 JSON 가져오기!](undefined/backbonejs/fetch-json.md)
   * [모델은 urlRoot, 컬렉션은 url](undefined/backbonejs/urlroot-url.md)
   * [ISSUE](undefined/backbonejs/issue.md)

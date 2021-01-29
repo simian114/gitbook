@@ -10,6 +10,7 @@
     * [1. BackboneJS 뷰 객체](42seoul-1/ft_transcendence/undefined/1.-backbonejs.md)
     * [2. API 설계](42seoul-1/ft_transcendence/undefined/2.-api.md)
     * [3. 레일즈 라우팅 구현](42seoul-1/ft_transcendence/undefined/3..md)
+    * [4. DB 설계](42seoul-1/ft_transcendence/undefined/4.-db.md)
 
 ## 공부
 

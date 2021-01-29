@@ -11,12 +11,6 @@
 
 ## 
 
-## 
-
-## 3. 레일즈 라우팅 구
-
-[코드를 보자!](https://github.com/transcendentalists/ft_transcendence/blob/environment/project/config/routes.rb)
-
 ## 4. DB 설계
 
 ![](../../../.gitbook/assets/db.png)

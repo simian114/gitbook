@@ -5,7 +5,10 @@
 ## 42SEOUL <a id="42seoul-1"></a>
 
 * [ft\_transcendence](42seoul-1/ft_transcendence/README.md)
-  * [설계](42seoul-1/ft_transcendence/undefined.md)
+  * [설계](42seoul-1/ft_transcendence/undefined/README.md)
+    * [0. 프론트 디자인](42seoul-1/ft_transcendence/undefined/0..md)
+    * [1. BackboneJS 뷰 객체](42seoul-1/ft_transcendence/undefined/1.-backbonejs.md)
+    * [2. API 설계](42seoul-1/ft_transcendence/undefined/2.-api.md)
 
 ## 공부
 

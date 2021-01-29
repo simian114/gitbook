@@ -12,7 +12,7 @@ description: 초월
 | Javascript | 2021. 01. 05 ~ 2021. 01. 09 | [Javascript](https://simian114.gitbook.io/blog/undefined/javascript) |
 | Backbone.js | 2021. 01. 12 ~ 2021. 01. 16 | [Backbone.js](https://simian114.gitbook.io/blog/undefined/backbonejs) |
 | 닌자 프로젝트 | 2021. 01. 18 ~ 2021. 01. 22 | [NinZa](https://github.com/transcendentalists/ninza) |
-| 설 | 2021. 01. 25 ~ | [ft\_transcendance](https://github.com/transcendentalists/ft_transcendence) |
+| 설 | 2021. 01. 25 ~ | [설계](https://simian114.gitbook.io/blog/42seoul-1/ft_transcendence/undefined) |
 
 
 

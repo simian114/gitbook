@@ -59,6 +59,7 @@
     * [Chapter9. DOM](undefined/javascript/undefined/chapter9.-dom.md)
   * [이벤트 위임](undefined/javascript/untitled.md)
 * [BackboneJS](undefined/backbonejs/README.md)
+  * [모델은 urlRoot, 컬렉션은 url](undefined/backbonejs/urlroot-url.md)
   * [ISSUE](undefined/backbonejs/issue.md)
   * [Absolute Beginner](undefined/backbonejs/absolute-beginner/README.md)
     * [Part1](undefined/backbonejs/absolute-beginner/part1.md)
@@ -136,4 +137,5 @@
       * [20210126\(화\)](undefined-1/diary/2021/january/20210126.md)
       * [20210127\(수\)](undefined-1/diary/2021/january/20210127.md)
       * [20210128\(목\)](undefined-1/diary/2021/january/20210128.md)
+      * [20210129\(금\)](undefined-1/diary/2021/january/20210129.md)
 

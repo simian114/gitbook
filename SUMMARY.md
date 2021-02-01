@@ -145,4 +145,6 @@
       * [20210127\(수\)](undefined-1/diary/2021/january/20210127.md)
       * [20210128\(목\)](undefined-1/diary/2021/january/20210128.md)
       * [20210129\(금\)](undefined-1/diary/2021/january/20210129.md)
+    * [February](undefined-1/diary/2021/february/README.md)
+      * [20210201\(월\)](undefined-1/diary/2021/february/20210201.md)
 

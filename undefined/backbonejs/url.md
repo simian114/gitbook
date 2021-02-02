@@ -41,3 +41,11 @@ users.fetch( {data: $.param(params)} );
 users.fetch({data: $param({ status: ["online", "playing"]}) })
 ```
 
+
+### 아래 두 페이지와 연관되서 유용하게 사용된다.
+
+{% page-ref page="../backbonejs/url.md" %}
+
+{% page-ref page="strongparameter.md" %}
+
+

@@ -38,6 +38,7 @@
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
+  * [액션케이블 Consumer를 이용해서 문제 해결](undefined/rubyonrails/consumer.md)
   * [레일즈에서 모델 관련 이슈](undefined/rubyonrails/undefined-3.md)
   * [레일즈 where 사용법](undefined/rubyonrails/where.md)
   * [StrongParameter 쿼리 배열 받기](undefined/rubyonrails/strongparameter.md)

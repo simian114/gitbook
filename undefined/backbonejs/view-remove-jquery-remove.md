@@ -1,5 +1,11 @@
 # 백본 VIEW의 remove와 jquery의 remove 는 다르다!
 
+{% hint style="info" %}
+[제이쿼리 remove](http://www.devkuma.com/books/pages/385)
+
+[백본 remove](https://backbonejs.org/docs/backbone.html) 에서 **remove: function 검색해서 찾**
+{% endhint %}
+
 ## 문제
 
 현재 view 에서 remove를 제이쿼리 remove를 해주는게 종종있다!

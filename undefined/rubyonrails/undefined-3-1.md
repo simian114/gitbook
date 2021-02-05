@@ -1,8 +1,6 @@
----
-description: 컨트롤러는 가볍게 모델은 두껍게
----
-
 # 레일즈에서 모델 관련 이슈
+
+
 
 ## 문제1. 원하는 조건, 특정 속성 만을 갖고 오는 법
 
@@ -12,7 +10,7 @@ description: 컨트롤러는 가볍게 모델은 두껍게
 
 * 하지만 우리는 **특정** **조건**을 갖는 모델의 **특정 속성** 만을 갖고 오고 싶다. 그러면 어떻게 해야하는가?
 
-### 해
+### 해결 
 
 * **특정 조건** 은 `where` 
 * **특정 속성** 은 `select`
@@ -21,11 +19,9 @@ description: 컨트롤러는 가볍게 모델은 두껍게
 
 * 조건은 `key: value` 로 명시하게 함. 만약 `/api/users?status=online`라면 모델 중에서 `status = online` 인 모델만 준다.
 * 속성은 `for` 쿼리로 명시하게 함. 만약 `/api/users?for=appearance` 라면 모든 모델을 가져다주면서 `id, name` \(특정 속성\)만을 가져다 준다.
-
-위 둘을 합쳐서 `/api/users?status=online&for=appearance` 를 날리면
-
-* 모든 모델에서 `online` 인 모델을 먼저 찾고
-* 찾은 모델에서 `appearance` 조건에 맞는 속성만을 `select` 한다.
+* 위 둘을 합쳐서 `/api/users?status=online&for=appearance` 를 날리면
+  * 모든 모델에서 `online` 인 모델을 먼저 찾고
+  * 찾은 모델에서 `appearance` 조건에 맞는 속성만을 `select` 한다.
 
 #### Example \(/api/users\)
 
@@ -100,6 +96,6 @@ def index
 end
 ```
 
-* 리팩토리은 신경끄고, `left_outer_join` 만 보면 된다.
+* 리팩토은 신경끄고, `left_outer_join` 만 보면 된다.
 * `guild_membership`, `guild` 모두 모델이고 `User` 는 `Guild`와 직접 연관 된게 아닌 `guild_membership` 을 통해서 연결되어 있으므로 위와 같이 `guild_membership: :guild` 로 참조해서 가져온다.
 

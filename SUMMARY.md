@@ -57,6 +57,7 @@
     * [Chapter7. 라우팅](undefined/rubyonrails/perfect-rubyonrails/chapter7..md)
     * [Chapter8. 테스트](undefined/rubyonrails/perfect-rubyonrails/chapter8..md)
 * [Javascript](undefined/javascript/README.md)
+  * [export, import 학습](undefined/javascript/export-import.md)
   * [ESlint](undefined/javascript/eslint.md)
   * [아주아주기본](undefined/javascript/undefined/README.md)
     * [Chatper1. 기본](undefined/javascript/undefined/chatper1..md)

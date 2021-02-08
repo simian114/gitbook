@@ -166,5 +166,5 @@
       * [20210204\(목\)](undefined-1/diary/2021/february/20210204.md)
       * [20210205\(금\)](undefined-1/diary/2021/february/20210205.md)
       * [20210207\(일\)](undefined-1/diary/2021/february/20210207.md)
-      * [Untitled](undefined-1/diary/2021/february/untitled.md)
+      * [20210208\(월\)](undefined-1/diary/2021/february/untitled.md)
 

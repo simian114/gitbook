@@ -38,6 +38,7 @@
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
+  * [모델의 includes 메서드](undefined/rubyonrails/includes.md)
   * [액션케이블 연결 순서](undefined/rubyonrails/undefined-4.md)
   * [StrongParameter 일반데이터와 객체 데이터 한번에 받기](undefined/rubyonrails/strongparameter-1.md)
   * [레일즈에서 모델 관련 이슈](undefined/rubyonrails/undefined-3.md)

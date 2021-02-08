@@ -1,5 +1,15 @@
 # Window 이벤트를 listenTo로 감시하기
 
+{% hint style="info" %}
+\*\*\*\*[**stackoverflow**](https://stackoverflow.com/questions/9110060/how-do-i-add-a-resize-event-to-the-window-in-a-view-using-backbone/9110145)\*\*\*\*
+
+\*\*\*\*[**extend사용법 - 한글**](https://dololak.tistory.com/774)\*\*\*\*
+
+\*\*\*\*[**underscoreJS**](https://underscorejs.org/#extend)\*\*\*\*
+
+\*\*\*\*[**BackboneJS EVENTS**](https://backbonejs.org/#Events)\*\*\*\*
+{% endhint %}
+
 ## 상황
 
 `user_menu_view` 를 켜놓은 상태에서 브라우저의 크기를 조절하면 `menu`의 위치는 처음 생성된 위치 그대로 고정이 되기 때문에 반응형으로 움직이지 못해서 보기에 매우 안좋다.

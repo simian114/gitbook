@@ -72,6 +72,7 @@
     * [Chapter9. DOM](undefined/javascript/undefined/chapter9.-dom.md)
   * [이벤트 위임](undefined/javascript/untitled.md)
 * [BackboneJS](undefined/backbonejs/README.md)
+  * [Window 이벤트를 listenTo로 감시하기](undefined/backbonejs/window-listento.md)
   * [뷰 자신이 자신을 지워야 할 때를 감지하려면 어떻게 해야하는가?](undefined/backbonejs/undefined.md)
   * [백본 VIEW의 remove와 jquery의 remove 는 다르다!](undefined/backbonejs/view-remove-jquery-remove.md)
   * [백본 컬렉션 URL에 쿼리 붙이기](undefined/backbonejs/url.md)
@@ -163,4 +164,5 @@
       * [20210204\(목\)](undefined-1/diary/2021/february/20210204.md)
       * [20210205\(금\)](undefined-1/diary/2021/february/20210205.md)
       * [20210207\(일\)](undefined-1/diary/2021/february/20210207.md)
+      * [Untitled](undefined-1/diary/2021/february/untitled.md)
 

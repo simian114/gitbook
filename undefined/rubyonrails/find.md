@@ -1,4 +1,4 @@
-# 레일즈액티브레코드 find의 다양한 활용
+# 액티브레코드 find의 다양한 활용
 
 {% hint style="info" %}
 **\`\`**[**`find_or_create_by`**](https://apidock.com/rails/v4.0.2/ActiveRecord/Relation/find_or_create_by)**\`\`**

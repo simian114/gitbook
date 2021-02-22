@@ -38,6 +38,7 @@
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
+  * [wrap-parameter body가 두 번씩 날라오는 이유](undefined/rubyonrails/wrap-parameter-body.md)
   * [커스텀Validation](undefined/rubyonrails/validation.md)
   * [액티브레코드 find의 다양한 활용](undefined/rubyonrails/find.md)
   * [css 파일을 수정했는데 적용이 안된다?](undefined/rubyonrails/css.md)

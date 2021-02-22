@@ -1,5 +1,11 @@
 # wrap-parameter body가 두 번씩 날라오는 이유
 
+{% hint style="info" %}
+\*\*\*\*[**RAILS GUIDE**](https://guides.rubyonrails.org/action_controller_overview.html#json-parameters)\*\*\*\*
+
+\*\*\*\*[**RAILS API**](https://api.rubyonrails.org/v6.1.3/classes/ActionController/ParamsWrapper/Options/ClassMethods.html#method-i-wrap_parameters)\*\*\*\*
+{% endhint %}
+
 ## 상황
 
 ### body로 보낸 parameter 가 두 번 날라온다?

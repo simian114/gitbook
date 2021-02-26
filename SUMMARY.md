@@ -38,6 +38,7 @@
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
+  * [CASE를 이용해서 정렬\(일반적인 정렬 X\)](undefined/rubyonrails/case-x.md)
   * [컬렉션 map에서 요소 스킵하는법](undefined/rubyonrails/map.md)
   * [wrap-parameter body가 두 번씩 날라오는 이유](undefined/rubyonrails/wrap-parameter-body.md)
   * [커스텀Validation](undefined/rubyonrails/validation.md)

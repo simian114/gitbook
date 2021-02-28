@@ -1,5 +1,15 @@
 # 문자열\(정규표현식\)
 
+{% hint style="info" %}
+\*\*\*\*[**RUBY REGEX**](https://www.rubyguides.com/2015/06/ruby-regex/)\*\*\*\*
+
+\*\*\*\*[**RUBY STRING MATCH**](https://ruby-doc.org/core-2.5.1/Regexp.html)\*\*\*\*
+
+\*\*\*\*[**RUBY STRING REGEX TEST!!!**](https://regexr.com/3bfsi)\*\*\*\*
+
+\*\*\*\*[**RUBY STRING METHOD**](https://www.shortcutfoo.com/app/dojos/ruby-strings/cheatsheet)\*\*\*\*
+{% endhint %}
+
 ## 상황
 
 ### 문자열 정렬하기

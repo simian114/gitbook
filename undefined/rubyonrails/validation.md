@@ -10,6 +10,8 @@ description: 너무 오랜만이다...
 \*\*\*\*[**validates vs validate**](https://stackoverflow.com/questions/18140898/whats-the-difference-between-validate-and-validates)\*\*\*\*
 
 \*\*\*\*[**RAILS API ERRORS**](https://api.rubyonrails.org/v6.1.0/classes/ActiveModel/Errors.html#method-i-add)\*\*\*\*
+
+\*\*\*\*[**new, valid?**](https://makandracards.com/makandra/54648-rails-how-to-check-if-a-certain-validation-failed)  ****
 {% endhint %}
 
 ## 상황

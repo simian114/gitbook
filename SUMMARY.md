@@ -38,6 +38,7 @@
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
+  * [RSPEC](undefined/rubyonrails/rspec.md)
   * [validation](undefined/rubyonrails/validation-1/README.md)
     * [커스텀Validation](undefined/rubyonrails/validation-1/validation.md)
     * [validates format\(정규표현식\)](undefined/rubyonrails/validation-1/validates-format.md)

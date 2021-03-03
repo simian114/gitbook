@@ -193,4 +193,5 @@
       * [20210228\(일\)](undefined-1/diary/2021/february/20210228.md)
     * [March](undefined-1/diary/2021/march/README.md)
       * [20210302\(화\)](undefined-1/diary/2021/march/20210302.md)
+      * [20210303\(수\)](undefined-1/diary/2021/march/20210303.md)
 

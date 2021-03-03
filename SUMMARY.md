@@ -40,6 +40,7 @@
 * [RubyOnRails](undefined/rubyonrails/README.md)
   * [RSPEC](undefined/rubyonrails/rspec.md)
   * [validation](undefined/rubyonrails/validation-1/README.md)
+    * [validator 클래스](undefined/rubyonrails/validation-1/validator.md)
     * [커스텀Validation](undefined/rubyonrails/validation-1/validation.md)
     * [validates format\(정규표현식\)](undefined/rubyonrails/validation-1/validates-format.md)
   * [문자열\(정규표현식\)](undefined/rubyonrails/undefined-5.md)

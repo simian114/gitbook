@@ -38,7 +38,7 @@
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
-  * [TIME - UTC vs Local](undefined/rubyonrails/time-utc-vs-local.md)
+  * [TIME ZONE 설정하기](undefined/rubyonrails/time-utc-vs-local.md)
   * [커스텀exception](undefined/rubyonrails/exception.md)
   * [RSPEC으로 모델 테스트하기](undefined/rubyonrails/rspec.md)
   * [validation](undefined/rubyonrails/validation-1/README.md)

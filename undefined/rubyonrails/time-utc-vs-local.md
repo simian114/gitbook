@@ -1,4 +1,4 @@
-# TIME - UTC vs Local
+# TIME ZONE 설정하기
 
 ## 상황
 

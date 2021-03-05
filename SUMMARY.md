@@ -40,7 +40,7 @@
 * [RubyOnRails](undefined/rubyonrails/README.md)
   * [TIME - UTC vs Local](undefined/rubyonrails/time-utc-vs-local.md)
   * [커스텀exception](undefined/rubyonrails/exception.md)
-  * [RSPEC](undefined/rubyonrails/rspec.md)
+  * [RSPEC으로 모델 테스트하기](undefined/rubyonrails/rspec.md)
   * [validation](undefined/rubyonrails/validation-1/README.md)
     * [validator 클래스](undefined/rubyonrails/validation-1/validator.md)
     * [커스텀Validation](undefined/rubyonrails/validation-1/validation.md)

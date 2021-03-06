@@ -59,7 +59,6 @@
   * [모델의 includes 메서드](undefined/rubyonrails/includes.md)
   * [StrongParameter 일반데이터와 객체 데이터 한번에 받기](undefined/rubyonrails/strongparameter-1.md)
   * [레일즈에서 모델 관련 이슈](undefined/rubyonrails/undefined-3.md)
-  * [레일즈에서 모델 관련 이슈](undefined/rubyonrails/undefined-3-1.md)
   * [레일즈 where 사용법](undefined/rubyonrails/where.md)
   * [StrongParameter 쿼리 배열 받기](undefined/rubyonrails/strongparameter.md)
   * [모델이름바꿀때명심할것](undefined/rubyonrails/undefined-1.md)

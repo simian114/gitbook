@@ -45,5 +45,5 @@ users.fetch({data: $param({ status: ["online", "playing"]}) })
 
 {% page-ref page="../rubyonrails/strongparameter.md" %}
 
-{% page-ref page="../rubyonrails/where.md" %}
+{% page-ref page="../rubyonrails/undefined-7/where.md" %}
 

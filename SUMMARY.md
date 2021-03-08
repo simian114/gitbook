@@ -39,6 +39,8 @@
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
   * [아직 정리하지 못한 것들](undefined/rubyonrails/undefined-4.md)
+  * [모델](undefined/rubyonrails/undefined-7/README.md)
+    * [연관 모델을 다른 이름으로 설정하고 가져오기](undefined/rubyonrails/undefined-7/undefined.md)
   * [validation](undefined/rubyonrails/validation-1/README.md)
     * [validator 클래스](undefined/rubyonrails/validation-1/validator.md)
     * [커스텀Validation](undefined/rubyonrails/validation-1/validation.md)

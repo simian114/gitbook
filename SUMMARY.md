@@ -39,6 +39,7 @@
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
   * [아직 정리하지 못한 것들](undefined/rubyonrails/undefined-4.md)
+  * [seeds 데이터 validation 스킵](undefined/rubyonrails/seeds-validation.md)
   * [모델](undefined/rubyonrails/undefined-7/README.md)
     * [레일즈 where 사용법](undefined/rubyonrails/undefined-7/where.md)
     * [레일즈에서 모델 관련 이슈](undefined/rubyonrails/undefined-7/undefined-3.md)

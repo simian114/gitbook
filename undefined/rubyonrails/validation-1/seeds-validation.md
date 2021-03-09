@@ -2,6 +2,8 @@
 
 {% hint style="info" %}
 \*\*\*\*[**모든건 STACKOVERFLOW에...**](https://stackoverflow.com/questions/15848952/turn-off-validation-in-seeds-rb)\*\*\*\*
+
+\*\*\*\*[**seeds 파일 기술!!**](https://www.xyzpub.com/en/ruby-on-rails/3.2/seed_rb.html)\*\*\*\*
 {% endhint %}
 
 ## 상황

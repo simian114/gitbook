@@ -38,6 +38,7 @@
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
+  * [한 레코드에 동시 접속 막자!! with\_lock](undefined/rubyonrails/with_lock.md)
   * [아직 정리하지 못한 것들](undefined/rubyonrails/undefined-4.md)
   * [모델](undefined/rubyonrails/undefined-7/README.md)
     * [레일즈 where 사용법](undefined/rubyonrails/undefined-7/where.md)

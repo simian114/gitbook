@@ -92,6 +92,7 @@
     * [Chapter9. DOM](undefined/javascript/undefined/chapter9.-dom.md)
   * [이벤트 위임](undefined/javascript/untitled.md)
 * [BackboneJS](undefined/backbonejs/README.md)
+  * [Backbone Model 프로토타입에 메서드 구현하기](undefined/backbonejs/backbone-model.md)
   * [BackboneJS의 각 요소의 역할과 책임을 확실히 이해하자](undefined/backbonejs/backbonejs.md)
   * [Window 이벤트를 listenTo로 감시하기](undefined/backbonejs/window-listento.md)
   * [뷰 자신이 자신을 지워야 할 때를 감지하려면 어떻게 해야하는가?](undefined/backbonejs/undefined.md)

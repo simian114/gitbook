@@ -14,7 +14,7 @@
   * 예를 들면 `war_request` 를 승낙할 때 바디에는 `body: { status: "approved" }` 라는 정보만 담긴다.
   * 여기서는 분명히 `war_request` 로 감싸주지 않았다. 하지만 서버에서 `body` 를 출력하면 조금은 이상한 값이 나온다.
 
-![status&#xAC00; war\_request&#xB85C; &#xD55C;&#xBC88; &#xB354; &#xAC10;&#xC2F8;&#xC9C4;&#xB2E4;](../../.gitbook/assets/params%20%281%29.png)
+![status&#xAC00; war\_request&#xB85C; &#xD55C;&#xBC88; &#xB354; &#xAC10;&#xC2F8;&#xC9C4;&#xB2E4;](../../../.gitbook/assets/params%20%281%29.png)
 
 * 바디에 보낸 `status` 가 두 번 나온다. 왜 `war_request` 로 감싸져서 한번 더 나오는걸까?
 * 또 재밌는 점은 body로  `body: { status: "approved", test: "test!" }` 와 같이 보내면 `test` 라는 키밸류 값은 `war_request`로 감싸지지 않는다는 사실이다.

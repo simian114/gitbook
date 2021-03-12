@@ -12,7 +12,7 @@
 
 {% page-ref page="../../backbonejs/url.md" %}
 
-{% page-ref page="../strongparameter.md" %}
+{% page-ref page="../undefined-3/strongparameter.md" %}
 
 
 

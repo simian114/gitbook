@@ -1,2 +1,2 @@
-# 액션케이블
+# ACTION CABLE
 

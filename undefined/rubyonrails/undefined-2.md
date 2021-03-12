@@ -1,4 +1,4 @@
-# 액티브스토리지
+# ACTIVE STORAGE
 
 {% hint style="info" %}
 \*\*\*\*[**공식홈페이지**](https://edgeguides.rubyonrails.org/active_storage_overview.html)\*\*\*\*

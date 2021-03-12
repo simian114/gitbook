@@ -39,6 +39,8 @@
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
   * [아직 정리하지 못한 것들](undefined/rubyonrails/undefined-4/README.md)
+    * [RSPEC 을 이용한 테스트 완전 자동화](undefined/rubyonrails/undefined-4/rspec.md)
+    * [레일즈 이니셜라이징 과정](undefined/rubyonrails/undefined-4/undefined-1.md)
     * [액션케이블 구체적으로 정리하기](undefined/rubyonrails/undefined-4/undefined.md)
     * [웹팩으로 자바스크립트 모듈 관리하기](undefined/rubyonrails/undefined-4/untitled.md)
   * [ACTIVE JOB](undefined/rubyonrails/active-job/README.md)

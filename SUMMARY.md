@@ -41,6 +41,7 @@
   * [ACTIVE JOB](undefined/rubyonrails/active-job/README.md)
     * [액티브잡의 기본](undefined/rubyonrails/active-job/undefined.md)
     * [실전! 액티브 잡을 이용한 스케쥴링](undefined/rubyonrails/active-job/undefined-2.md)
+    * [서버를 껏다 키면 스케쥴링 된 이벤트가 사라진다!](undefined/rubyonrails/active-job/undefined-1.md)
   * [ACTION CABLE](undefined/rubyonrails/undefined-6/README.md)
     * [액션케이블 Consumer를 이용해서 문제 해결](undefined/rubyonrails/undefined-6/consumer.md)
     * [액션케이블 연결 순서](undefined/rubyonrails/undefined-6/undefined-4.md)

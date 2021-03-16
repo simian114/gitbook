@@ -229,4 +229,5 @@
       * [20210312\(금\)](undefined-1/diary/2021/march/20210312.md)
       * [20210313\(토\)](undefined-1/diary/2021/march/20210313.md)
       * [20210315\(월\)](undefined-1/diary/2021/march/20210315.md)
+      * [20210316\(화\)](undefined-1/diary/2021/march/20210316.md)
 

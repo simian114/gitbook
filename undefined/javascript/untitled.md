@@ -1,5 +1,9 @@
 # 이벤트 위임
 
+{% hint style="info" %}
+\*\*\*\*[**모던 자바스크립트 듀토리얼**](https://ko.javascript.info/bubbling-and-capturing)\*\*\*\*
+{% endhint %}
+
 ## 이벤트 위임
 
 > 문제의 시작은 리스트로 된 요소에 이벤트를 거는 곳에서 시작됐다....

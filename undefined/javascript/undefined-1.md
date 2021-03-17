@@ -1,0 +1,7 @@
+# 정리할 것 목록
+
+1. 이벤트 관련 정리
+   * [https://ko.javascript.info/ui](https://ko.javascript.info/ui) 를 보고 정리하자.
+2. 자바스크립트에서 함수식과 함수문 의 차이를 정리하자
+3. 식과 문 자체의 차이를 이해하고 정리하자
+4. 

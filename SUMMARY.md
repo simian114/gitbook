@@ -93,6 +93,7 @@
     * [Chapter7. 라우팅](undefined/rubyonrails/perfect-rubyonrails/chapter7..md)
     * [Chapter8. 테스트](undefined/rubyonrails/perfect-rubyonrails/chapter8..md)
 * [Javascript](undefined/javascript/README.md)
+  * [정리할 것 목록](undefined/javascript/undefined-1.md)
   * [prototype, \[\[Prototype\]\] 차이](undefined/javascript/prototype-prototype.md)
   * [export, import 학습](undefined/javascript/export-import.md)
   * [ESlint](undefined/javascript/eslint.md)

@@ -1,4 +1,4 @@
-# NAVBAR
+# NAVBAR 실습
 
 ## 1. html 구조를 잡자.
 

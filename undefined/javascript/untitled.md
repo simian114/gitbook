@@ -1,21 +1,177 @@
 # 이벤트 위임
 
-이벤트 위임?
+## 이벤트 위임
 
-* 로그인 창을 모달로 띄우는 경우를 생각해보자.
-* 이 모달창은 로그인 버튼을 누르면 동적으로 생기고 끝나면 동적으로 사라진다.
-* 그런데 무식하게? 코드를 작성하고 실행을 해보자.
-* 처음에는 분명 로그인이 잘된다. 하지만 로그아웃을하고 다시 로그인을 하게 되면 이때부터 무언가가 꼬이게 된다.
-* 도대체 왜 그럴까? 아무리 무식하게 코딩을 했다고해도 분명 DOM 요소 자체는 생성되고 사라지는게 눈에보이는데...?
-  * 정답은 **이벤트를 삭제해주지 않아서 그렇다**
-* 이벤트를 삭제해주지 않았다고?
-  * 로그인창 모달을 띄우면 그 모달창 하나에도 정말 수많은 이벤트가 걸리게 된다.
-  * 이때 모달창이 사라질 때 이벤트에 대한 처리를 해주지 않는다면, 이 이벤트는 계속 남아 있게 된다. 그리고 메모리 leak의 범인이 되어서 웹이 동작하지 않게 만드는 원인이 된다.
-* 자 그러면 해결법은 간단하다. 모달창이 사라질 때 마다 이 이벤트를 없애면 된다.
-* 이렇게 하면 문제는 해결되지만, 모달창의 생성과 소멸에 너무 많은 작업이 할당되어 버린다.\(모달창 하나에는 이벤트가 여러개가 걸리기 때문\) 따라서 개발자라면 당연히 더 좋은 방법을 찾아야한다. 그렇다면 더 좋은 방법은 대체 뭐가 있을까?
-* 여기서 나오는 해답 중 하나가 바로 **이벤트 위임**이다.
-* 이벤트 위임. 말 그대로 이벤트를 무언가에게 넘기는? 기능이다. 그렇다면 이 이벤트를 어디로 옮길것인가? 간단하다. 상위 객체로 옮기는 것이다!
-  * 그렇다면 의문이 하나 생긴다. 이벤트를 모달창이 아닌 모달창의 상위 객체에 정의했는데 어떻게 해당 모달창에서 이벤트를 사용할 수 있다는 것인가?
-  * 이건 JS의 특징이기 때문에 가능한것이다. **JS에서 사용자의 액션에 의해 이벤트 발생 시 이벤트는 document 레벨까지 버블링되어 올라간다.** 쉽게 말해서 자식 클래스에 메서드가 선언되어 있지 않으면 부모 클래스의 메서드까지 찾아가는 것처럼, 이벤트도 해당 객체에 선언되어 있지 않다면 해당 객체의 상위로 올라가서 이벤트를 찾게 되는것이다.
-* 이러한 원리를 사용하는게 바로 **이벤트 위임**이다. 특정 엘리먼트에 하나하나 이벤트를 등록하지 않고 하나의 부모에 이벤트를 등록하여 부모에게 이벤트를 위임하는 것.
+> 문제의 시작은 리스트로 된 요소에 이벤트를 거는 곳에서 시작됐다....
+
+## HTML 요소에 이벤트 걸기
+
+일반적인 HTML 요소에 이벤트를 거는 방법은... 처음 배우는 사람도 금방 할 수 있을 만큼 쉽다.
+
+네모난 박스를 누르면 `console.log` 를 하는 html과 이벤트를 만들어보자.
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>기본</title>
+  <style>
+    #box {
+      width: 100px;
+      height: 100px;
+      background: #f06292;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box"></div>
+  <script>
+    document.querySelector("#box").addEventListener("click", function () {
+      alert("이벤트입니다.");
+    });
+  </script>
+</body>
+
+</html>
+```
+
+위와 같은 코드를 실행하면 아래와 같이 출력되는걸 확인할 수 있다.
+
+![&#xC544;&#xC8FC; &#xAE30;&#xBCF8;&#xC801;&#xC778; &#xC774;&#xBCA4;&#xD2B8;!](../../.gitbook/assets/1.-.png)
+
+## 겹쳐져있는 요소에 이벤트 걸기
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>자바스크립트 이벤트</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: #f06292;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="one box">
+    <div class="two box">
+      <div class="three box">
+      </div>
+    </div>
+  </div>
+  <script>
+
+
+    var boxs = document.querySelectorAll('.box');
+    boxs.forEach(function (box) {
+      box.addEventListener('click', logEvent);
+    });
+
+    function logEvent(event) {
+      console.log(event.currentTarget.className);
+    }
+  </script>
+</body>
+
+</html
+```
+
+위 코드를 보면 **3개의 div요소가 겹쳐져 있다.** 그리고 **querySelectorAll** 을 통해서 모든 **box 클래스를 갖는 div 를 찾고 이벤트를 건다.** 클릭해보기전에 예측을 해보자면 겹쳐있다고는 해도 실제 사용자에게 보여지는 요소는 마지막 3번째 요소이므로 **three box** 하나가 출력되었을거같다.
+
+자, 이제 브라우저에서 요소를 클릭해보자.
+
+![&#xC774;&#xBCA4;&#xD2B8; &#xBC84;&#xBE14;&#xB9C1;](../../.gitbook/assets/2.-.png)
+
+**오잉... 무슨 일이지 대체 왜 3개 모두 찍힌거야?**
+
+### event bubbling
+
+콘솔로그로 출력된 걸 보면 가장 마지막 요소부터 처음요소까지 위로 올라오면서 동작이 됐다는걸 알 수 있다. **이벤트 버블링이란 한 요소에 이벤트가 발생하면, 이 요소에 할당된 핸들러가 동작하고 이어서 부모 요소의 핸들러가 동작한다는 것이다. 그리고 가장 최상단의 조상 요소를 만나기 전까지 이 과정이 반복되는 과정을 말한다.**
+
+따라서 네모 박스를 클릭했을 때 아래와 같은 동작이 수행된다.
+
+1. 가장 안쪽의 div에서 클릭이벤트가 발생
+2. 바깥의 div에서 클릭이벤트가 발생
+3. 그 바깥으 이벤트 핸들러가 동작....
+4. document 객체를 만날 때 까지 이벤트 핸들러가 동작한다.
+
+**logEvent** 를 약간 수정해서 **event** 자체를 출력해보자.
+
+![](../../.gitbook/assets/3.-.png)
+
+**console.log\(event\)** 에서 **path** 를 보면 이렇게 되어있다. 클릭이벤트가 **three box** 부터 끝까지 타고 올라가는걸 확인할 수 있다.
+
+### 이벤트 캡쳐링
+
+버블링과는 반대로 **상위에서 하위로 뻗어 나간다.** 위의 예제에서 `capture: true` 라는 옵션만 주면 확인할 수 있다.
+
+캡쳐링은 클릭 이벤트가 발생한 지점을 찾아내려가는 이미지를 상상하면 된다.
+
+## stopPropagation
+
+이렇게 이벤트가 위로 올라가고.... 아래로 내려가는데 보통의 경우 이는 개발자가 원하지 않는 상황이다. 이 문제으 해결방법은 코드를 구조적으로 짜는게 가장 좋겠지만, 어쩔 수 없는 경우에는 그 자리에서 즉각적으로 버블링과 캡쳐링을 막아야만 한다. 이 때 사용하는 문법이 **stopPropagation** 이다.
+
+## 이벤트 위임
+
+이벤트 위임이란 **하위 요소에 각각 이벤트를 붙이지 않고 상위 요소에서 하위 요소의 이벤트들을 제어하는 방식**이다.
+
+```markup
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title> no event delegation</title>
+</head>
+
+<body>
+  <h1>오늘의 할 일</h1>
+  <ul class="itemList">
+    <li>
+      <input type="checkbox" id="item1">
+      <label for="item1">이벤트 버블링 학습</label>
+    </li>
+    <li>
+      <input type="checkbox" id="item2">
+      <label for="item2">이벤트 캡쳐 학습</label>
+    </li>
+  </ul>
+
+  <script>
+
+    var inputs = document.querySelectorAll('input');
+    inputs.forEach(function (input) {
+      input.addEventListener('click', function (event) {
+        alert('clicked');
+      });
+    });
+
+  </script>
+</body>
+
+</html
+```
+
+위의 코드는 쿼리 셀렉터를 통해서 모든 input box 를 찾고 각 요소에 클릭 이벤트 리스너를 추가하는 예제다. 눈으로 봐도 문제가 없고 실제로 실행해도 문제가 없다.
+
+**하지만 이 코드는 문제가 있다.** 만약 새로운 할일 목록을 추가할 때 마다 이벤트 리스너를 달아줘야 하기 때문. 즉 동적인 프로그래밍이 불가능해지는 코드를 만드는 행위다.
+
+자바스크립트 코드만 아래처럼 바꿔보자.
+
+```javascript
+var itemList = document.querySelector('.itemList');
+itemList.addEventListener('click', function(event) {
+    alert('clicked');
+});
+```
+
+이렇게 되면 이벤트 위임의 정의대로 상위 요소 하나에 이벤트를 등록했을 뿐인데 그 하위요소에서는 해당 이벤트를 리슨할 수 있게 된다. 심지어 동적으로 추가된 요소들도 자동으로 이벤트를 듣게된다!
 

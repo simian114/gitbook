@@ -48,6 +48,8 @@
     * [Chapter5. 기능 공유하기](undefined/ruby/1/chapter5..md)
     * [Chapter6. 표준 타입](undefined/ruby/1/chapter6..md)
     * [Chapter8. 메서드 파헤치기](undefined/ruby/1/chapter8..md)
+* [파이썬](undefined/undefined-2/README.md)
+  * [Untitled](undefined/undefined-2/untitled.md)
 * [RubyOnRails](undefined/rubyonrails/README.md)
   * [아직 정리하지 못한 것들](undefined/rubyonrails/undefined-4/README.md)
     * [RSPEC 을 이용한 테스트 완전 자동화](undefined/rubyonrails/undefined-4/rspec.md)

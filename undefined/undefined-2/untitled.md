@@ -1,23 +1,52 @@
-# Untitled
+# 유용한 링크
 
-## 정규표현식
+## [정규표현식](https://docs.python.org/3/library/re.html)
 
-| 정규표현식 | 링 |
+| 정규표현식 | 링크  |
 | :--- | :--- |
 | **re 모듈 공식 홈페이지**  | [https://docs.python.org/3/library/re.html](https://docs.python.org/3/library/re.html) |
-| re 모듈 연 | [https://www.w3resource.com/python-exercises/re/](https://www.w3resource.com/python-exercises/re/) |
-| 정규표현식 패 | [https://brownbears.tistory.com/62](https://brownbears.tistory.com/62) |
+| re 모듈 연습  | [https://www.w3resource.com/python-exercises/re/](https://www.w3resource.com/python-exercises/re/) |
+| 정규표현식 패턴  | [https://brownbears.tistory.com/62](https://brownbears.tistory.com/62) |
 | 점프 투 파이썬 | [https://wikidocs.net/1669](https://wikidocs.net/1669) |
 
-## lambda
+## [lambda](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 
-| 람다표현 | 링 |
+| 람다표현식  | 링크  |
 | :--- | :--- |
 | 공식홈페이 | [https://docs.python.org/3/tutorial/controlflow.html\#lambda-expressions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions) |
 | 람다 연습하 | [https://www.w3resource.com/python-exercises/lambda/index.php](https://www.w3resource.com/python-exercises/lambda/index.php) |
 |  |  |
 
-## built in functions
+## [리스트 컴프리헨션](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions)
+
+| 컴프리헨 | 링 |
+| :--- | :--- |
+| [공식 Docs](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) | [https://docs.python.org/3/tutorial/datastructures.html\#list-comprehensions](https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions) |
+| 국내 블로 | [https://wikidocs.net/22805](https://wikidocs.net/22805) |
+| 연습1 | [https://www.learnpython.org/en/List\_Comprehensions](https://www.learnpython.org/en/List_Comprehensions) |
+| 연습2 | [https://gist.github.com/doughsay/cb50d9e4d344230ebc166255a202f81d](https://gist.github.com/doughsay/cb50d9e4d344230ebc166255a202f81d) |
+
+## [Collections](https://docs.python.org/3/library/collections.html#module-collections)
+
+| [`namedtuple()`](https://docs.python.org/3/library/collections.html#collections.namedtuple) | factory function for creating tuple subclasses with named fields |
+| :--- | :--- |
+| [`deque`](https://docs.python.org/3/library/collections.html#collections.deque) | list-like container with fast appends and pops on either end |
+| [`ChainMap`](https://docs.python.org/3/library/collections.html#collections.ChainMap) | dict-like class for creating a single view of multiple mappings |
+| [`Counter`](https://docs.python.org/3/library/collections.html#collections.Counter) | dict subclass for counting hashable objects |
+| [`OrderedDict`](https://docs.python.org/3/library/collections.html#collections.OrderedDict) | dict subclass that remembers the order entries were added |
+| [`defaultdict`](https://docs.python.org/3/library/collections.html#collections.defaultdict) | dict subclass that calls a factory function to supply missing values |
+| [`UserDict`](https://docs.python.org/3/library/collections.html#collections.UserDict) | wrapper around dictionary objects for easier dict subclassing |
+| [`UserList`](https://docs.python.org/3/library/collections.html#collections.UserList) | wrapper around list objects for easier list subclassing |
+| [`UserString`](https://docs.python.org/3/library/collections.html#collections.UserString) | wrapper around string objects for easier string subclassing |
+
+### Counter
+
+| Counter | 링크 |
+| :--- | :--- |
+| 공식 Docs | [https://docs.python.org/3/library/collections.html\#collections.Counter](https://docs.python.org/3/library/collections.html#collections.Counter) |
+|  |  |
+
+## [built in functions](https://docs.python.org/3/library/functions.html#built-in-functions)
 
 |   |  | Built-in Functions |  |  |
 | :--- | :--- | :--- | :--- | :--- |

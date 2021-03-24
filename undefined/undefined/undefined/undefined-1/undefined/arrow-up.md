@@ -1,4 +1,4 @@
-# 스크롤 다운 하면 arrow-up 버튼 나오게 하기
+# 3. 스크롤 다운 하면 arrow-up 버튼 나오게 하기
 
 {% hint style="info" %}
 \*\*\*\*[**display: none 에는 transition이 적용되지 않는다.**](https://velog.io/@dev-tinkerbell/display-none%EC%9D%B4-transition%EC%9D%B4-%EC%95%88%EB%A8%B9%ED%9E%88%EB%8A%94-%EC%9D%B4%EC%9C%A0)\*\*\*\*

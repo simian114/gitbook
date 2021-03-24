@@ -39,6 +39,13 @@
 | [`UserList`](https://docs.python.org/3/library/collections.html#collections.UserList) | wrapper around list objects for easier list subclassing |
 | [`UserString`](https://docs.python.org/3/library/collections.html#collections.UserString) | wrapper around string objects for easier string subclassing |
 
+### defaultdict
+
+| defaultdict | 링 |
+| :--- | :--- |
+| 공식 Docs | [https://docs.python.org/3.3/library/collections.html\#collections.defaultdict](https://docs.python.org/3.3/library/collections.html#collections.defaultdict) |
+| 사용 | [https://dongdongfather.tistory.com/69](https://dongdongfather.tistory.com/69) |
+
 ### Counter
 
 | Counter | 링크 |

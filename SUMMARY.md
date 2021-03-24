@@ -156,6 +156,7 @@
         * [2. navbar 버튼을 누르면 해당 페이지로 스크롤링 되게 만들자](undefined/undefined/undefined/undefined-1/undefined/untitled.md)
         * [3. 스크롤 다운 하면 arrow-up 버튼 나오게 하기](undefined/undefined/undefined/undefined-1/undefined/arrow-up.md)
         * [4. project 필터링 구현](undefined/undefined/undefined/undefined-1/undefined/4.-project.md)
+        * [5. project 필터링에 transition 효과 넣기](undefined/undefined/undefined/undefined-1/undefined/5.-project-transition.md)
     * [Untitled](undefined/undefined/undefined/untitled.md)
   * [GIT](undefined/undefined/git/README.md)
     * [git remote update - remote 브랜치 가져오기](undefined/undefined/git/git-remote-update-remote.md)

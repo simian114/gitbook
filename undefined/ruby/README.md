@@ -2,7 +2,7 @@
 description: 루비 언어를 학습합니다.
 ---
 
-# 루비
+# Ruby
 
 ![https://ruby-doc.com/docs/ProgrammingRuby/](../../.gitbook/assets/ruby%20%281%29.jpg)
 

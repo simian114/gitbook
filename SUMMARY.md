@@ -147,6 +147,7 @@
   * [03. 로그파일 재정렬\(leetcode 937\)](undefined/undefined-1/03.-leetcode-937.md)
   * [04. 가장 흔한 단어\(leetcode: 819\)](undefined/undefined-1/04.-leetcode-819.md)
   * [05. 그룹 애너그램\(leetcode: 49\)](undefined/undefined-1/05.-leetcode-49.md)
+  * [06. 가장 긴 팰린드롬 문자열\(leetcode: 5\)](undefined/undefined-1/06.-leetcode-5.md)
 * [기타](undefined/undefined/README.md)
   * [드림코딩 강의](undefined/undefined/undefined/README.md)
     * [포트폴리오](undefined/undefined/undefined/undefined-1/README.md)

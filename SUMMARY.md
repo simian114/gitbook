@@ -100,6 +100,7 @@
     * [Chapter8. 테스트](undefined/rubyonrails/perfect-rubyonrails/chapter8..md)
 * [Javascript](undefined/javascript/README.md)
   * [유용한 링크](undefined/javascript/undefined-3.md)
+  * [preventDefault - passive](undefined/javascript/preventdefault-passive.md)
   * [CRITICAL-RENDERING-PATH](undefined/javascript/critical-rendering-path.md)
   * [정리할 것 목록](undefined/javascript/undefined-1/README.md)
     * [자바스크립트 기본 문법](undefined/javascript/undefined-1/undefined.md)

@@ -103,6 +103,7 @@
   * [preventDefault - passive](undefined/javascript/preventdefault-passive.md)
   * [CRITICAL-RENDERING-PATH](undefined/javascript/critical-rendering-path.md)
   * [setInterval에 클로져 개념 사용하기](undefined/javascript/setinterval.md)
+  * [오디오 문제 이슈](undefined/javascript/undefined-4.md)
   * [정리할 것 목록](undefined/javascript/undefined-1/README.md)
     * [자바스크립트 기본 문법](undefined/javascript/undefined-1/undefined.md)
   * [자바스크립트의 식과 문](undefined/javascript/undefined-2/README.md)

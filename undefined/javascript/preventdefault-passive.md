@@ -28,7 +28,7 @@
 
 ## 스크롤에서의 preventDefault
 
-{% embed url="https://jsfiddle.net/namssang/myLgu476/" %}
+{% embed url="https://jsfiddle.net/namssang/myLgu476/1/" %}
 
 
 

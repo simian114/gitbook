@@ -107,7 +107,7 @@
     * [콜스택에 있는 블록이 보장된다는 점을 이용해서 브라우저 죽이기](undefined/javascript/event-loop/undefined-2.md)
     * [setTimeout 무한반복으로 브라우저는 죽을까?](undefined/javascript/event-loop/settimeout-1.md)
     * [Promise 무한반복으로는 브라우저를 죽일 수 있을까?](undefined/javascript/event-loop/untitled-1.md)
-    * [Untitled](undefined/javascript/event-loop/untitled.md)
+    * [RAF는 그럼 뭐야?](undefined/javascript/event-loop/untitled.md)
   * [forEach는 반복도중 멈출 방법이 throw 밖에 없다!](undefined/javascript/foreach-throw.md)
   * [임시](undefined/javascript/undefined-5/README.md)
     * [정리할 것 목록](undefined/javascript/undefined-5/undefined-1/README.md)

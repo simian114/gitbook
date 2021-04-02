@@ -99,6 +99,7 @@
     * [Chapter7. 라우팅](undefined/rubyonrails/perfect-rubyonrails/chapter7..md)
     * [Chapter8. 테스트](undefined/rubyonrails/perfect-rubyonrails/chapter8..md)
 * [Javascript](undefined/javascript/README.md)
+  * [IntersectionObserver 를  사용해서 스크롤 이벤트의 부하 줄여주기](undefined/javascript/intersectionobserver.md)
   * [EVENT LOOP](undefined/javascript/event-loop/README.md)
     * [자바스크립트에서 어떻게 비동기적인 실행이 가능한걸까?](undefined/javascript/event-loop/undefined.md)
     * [이벤트 루프의 동작](undefined/javascript/event-loop/undefined-1.md)

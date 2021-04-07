@@ -1,2 +1,2 @@
-# 블랙커피스터디
+# BlackCoffeeStudy
 

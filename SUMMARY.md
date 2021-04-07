@@ -170,7 +170,7 @@
   * [08. 빗물 트래핑](undefined/undefined-1/08..md)
   * [09. 세 수의 합\(leetcode: 15\)](undefined/undefined-1/09.-leetcode-15.md)
 * [기타](undefined/undefined/README.md)
-  * [블랙커피스터디](undefined/undefined/undefined-1/README.md)
+  * [BlackCoffeeStudy](undefined/undefined/undefined-1/README.md)
     * [level1](undefined/undefined/undefined-1/level1/README.md)
       * [1주차](undefined/undefined/undefined-1/level1/1.md)
   * [드림코딩 강의](undefined/undefined/undefined/README.md)

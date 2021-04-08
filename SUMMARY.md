@@ -305,4 +305,5 @@
     * [April](undefined-1/diary/2021/april/README.md)
       * [20210406\(화\)](undefined-1/diary/2021/april/20210406.md)
       * [20210407\(수\)](undefined-1/diary/2021/april/20210407.md)
+      * [20210408\(목\)](undefined-1/diary/2021/april/20210408.md)
 

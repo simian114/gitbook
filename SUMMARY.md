@@ -314,4 +314,6 @@
       * [20210415\(목\)](undefined-1/diary/2021/april/20210415.md)
       * [20210416\(금\)](undefined-1/diary/2021/april/20210416.md)
       * [20210417\(토\)](undefined-1/diary/2021/april/20210417.md)
+      * [20210419\(월\)](undefined-1/diary/2021/april/20210419.md)
+      * [20210420\(화\)](undefined-1/diary/2021/april/20210420.md)
 

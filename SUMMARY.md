@@ -204,6 +204,8 @@
   * [GIT](undefined/undefined/git/README.md)
     * [git remote update - remote 브랜치 가져오기](undefined/undefined/git/git-remote-update-remote.md)
 * [cypress](undefined/cypress/README.md)
+  * [window.alert 테스트는 어떻게 하지?](undefined/cypress/window.alert.md)
+  * [상수를 어디에 저장할건가?](undefined/cypress/undefined.md)
   * [before\(\)와 beforeEach\(\)](undefined/cypress/before-beforeeach.md)
 
 ## 기타 <a id="undefined-1"></a>

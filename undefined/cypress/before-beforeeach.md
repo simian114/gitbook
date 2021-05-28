@@ -4,6 +4,8 @@ description: before와 beforeEach
 
 # before\(\)와 beforeEach\(\)
 
+{% embed url="https://filiphric.com/cypress-basics-before-beforeeach-after-aftereach" caption="아주 깔끔한 설명" %}
+
 ## before\(\)
 
 > 테스트 실행전의 작업을 수행한다. 하지만, 단 한번만 실행이 된다는 점을 잊지말자.

@@ -187,6 +187,12 @@
   * [Bootstrap](undefined/express/bootstrap.md)
   * [npm install로 설치한 모듈 ejs에서 사용하기](undefined/express/npm-install-ejs.md)
   * [미들웨어](undefined/express/undefined.md)
+* [cypress](undefined/cypress/README.md)
+  * [window.alert 테스트는 어떻게 하지?](undefined/cypress/window.alert.md)
+  * [상수를 어디에 저장할건가?](undefined/cypress/undefined.md)
+  * [before\(\)와 beforeEach\(\)](undefined/cypress/before-beforeeach.md)
+* [aws](undefined/aws/README.md)
+  * [aws로 프로젝트를 배포해보자!](undefined/aws/aws.md)
 * [기타](undefined/undefined/README.md)
   * [구글애널리틱스 설치하기](undefined/undefined/undefined-1.md)
   * [드림코딩 강의](undefined/undefined/undefined/README.md)
@@ -203,10 +209,6 @@
     * [Untitled](undefined/undefined/undefined/untitled.md)
   * [GIT](undefined/undefined/git/README.md)
     * [git remote update - remote 브랜치 가져오기](undefined/undefined/git/git-remote-update-remote.md)
-* [cypress](undefined/cypress/README.md)
-  * [window.alert 테스트는 어떻게 하지?](undefined/cypress/window.alert.md)
-  * [상수를 어디에 저장할건가?](undefined/cypress/undefined.md)
-  * [before\(\)와 beforeEach\(\)](undefined/cypress/before-beforeeach.md)
 
 ## 기타 <a id="undefined-1"></a>
 

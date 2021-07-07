@@ -197,6 +197,8 @@
   * [aws로 프로젝트를 배포해보자!](undefined/aws/aws.md)
   * [nginx로 리버스프록시 서버를 만들자](undefined/aws/nginx.md)
   * [github actions 로 푸쉬되면 자동으로 업데이트 하는 기능 만들어보기](undefined/aws/github-actions.md)
+* [react](undefined/react/README.md)
+  * [CRA로 만든 앱에서 절대경로로 import 해오기\(alias하기\)](undefined/react/cra-import-alias.md)
 * [기타](undefined/undefined/README.md)
   * [구글애널리틱스 설치하기](undefined/undefined/undefined-1.md)
   * [드림코딩 강의](undefined/undefined/undefined/README.md)

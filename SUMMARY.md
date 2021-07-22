@@ -2,7 +2,7 @@
 
 * [README.md](README.md)
 
-## 42SEOUL <a id="42seoul-1"></a>
+## 프로젝트 <a id="42seoul-1"></a>
 
 * [ft\_transcendence](42seoul-1/ft_transcendence/README.md)
   * [설계](42seoul-1/ft_transcendence/undefined/README.md)
@@ -12,6 +12,7 @@
     * [3. 레일즈 라우팅 구현](42seoul-1/ft_transcendence/undefined/3..md)
     * [4. DB 설계](42seoul-1/ft_transcendence/undefined/4.-db.md)
     * [5. 채널 설계](42seoul-1/ft_transcendence/undefined/5..md)
+* [slab-saver](42seoul-1/slab-saver.md)
 
 ## 공부
 

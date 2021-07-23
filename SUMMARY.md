@@ -13,6 +13,7 @@
     * [4. DB 설계](42seoul-1/ft_transcendence/undefined/4.-db.md)
     * [5. 채널 설계](42seoul-1/ft_transcendence/undefined/5..md)
 * [slab-saver](42seoul-1/slab-saver.md)
+* [react-payment](42seoul-1/react-payment.md)
 
 ## 공부
 

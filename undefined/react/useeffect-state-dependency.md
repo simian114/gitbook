@@ -1,5 +1,7 @@
 # useEffect내에서 state의 dependency 문제
 
+{% embed url="https://daveceddia.com/useeffect-hook-examples/" caption="useEffect 읽어보면 좋은 글" %}
+
 ## useEffect 내에서 setState 시 디펜던시 문제
 
 ### 문제

@@ -1,12 +1,14 @@
 # IntersectionObserverAPI로 무한스크롤 구현
 
-## intersection-observer를 이용한 무한스크롤\(리액트\)
+{% hint style="info" %}
+[MDN IntersectionObserver API](https://developer.mozilla.org/ko/docs/Web/API/Intersection_Observer_API)
 
-> [MDN IntersectionObserver API](https://developer.mozilla.org/ko/docs/Web/API/Intersection_Observer_API)
->
-> [참고한 유튜브 영상](https://www.youtube.com/watch?v=GVDiw3lAyp0&ab_channel=LeighHalliday)
->
-> [내 코드](https://github.com/simian114/infiniteScroll)
+[참고한 유튜브 영상](https://www.youtube.com/watch?v=GVDiw3lAyp0&ab_channel=LeighHalliday)
+
+[내 코드](https://github.com/simian114/infiniteScroll)
+
+[IntersectionObserver API v2](https://web.dev/intersectionobserver-v2/)
+{% endhint %}
 
 ## Intersection Observer는 어떤 문제들을 해결하기 위해 등장했을까?
 

@@ -358,5 +358,5 @@
       * [20210421\(수\)](undefined-1/diary/2021/april/20210421.md)
       * [20210422\(목\)](undefined-1/diary/2021/april/20210422.md)
     * [July](undefined-1/diary/2021/july/README.md)
-      * [20210708\(수\)](undefined-1/diary/2021/july/20210708.md)
+      * [20210728\(수\)](undefined-1/diary/2021/july/20210708.md)
 

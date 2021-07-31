@@ -2,6 +2,10 @@
 
 오랜만에 쓰는 일기장.... 무한스크롤을 구현했다.
 
+{% page-ref page="../../../undefined/react/intersectionobserverapi.md" %}
+
+{% page-ref page="../../../undefined/react/useeffect-state-dependency.md" %}
+
 ## 스크롤바에 이벤트를 걸어 무한스크롤을 구현
 
 > 처음 만들었을 때 사용한 방법

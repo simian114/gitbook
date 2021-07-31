@@ -201,6 +201,7 @@
   * [nginx로 리버스프록시 서버를 만들자](undefined/aws/nginx.md)
   * [github actions 로 푸쉬되면 자동으로 업데이트 하는 기능 만들어보기](undefined/aws/github-actions.md)
 * [react](undefined/react/README.md)
+  * [CRA에서 CRACO 사용하지 않고 절대경로 import\(NODE\_PATH\)](undefined/react/cra-craco-import-node_path.md)
   * [useEffect내에서 state의 dependency 문제](undefined/react/useeffect-state-dependency.md)
   * [IntersectionObserverAPI로 무한스크롤 구현](undefined/react/intersectionobserverapi.md)
   * [react-testing-library](undefined/react/react-testing-library/README.md)
@@ -226,6 +227,7 @@
         * [5. project 필터링에 transition 효과 넣기](undefined/undefined/undefined/undefined-1/undefined/5.-project-transition.md)
     * [Untitled](undefined/undefined/undefined/untitled.md)
   * [GIT](undefined/undefined/git/README.md)
+    * [기본 사용법 정리](undefined/undefined/git/undefined.md)
     * [git remote update - remote 브랜치 가져오기](undefined/undefined/git/git-remote-update-remote.md)
 
 ## 기타 <a id="undefined-1"></a>

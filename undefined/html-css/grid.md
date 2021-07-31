@@ -52,6 +52,8 @@
 
 몇 개의 `row` 까지 속성을 적용할지 결정할 수 있다.
 
+3 대신에 `auto-fill` 을 입력하면 `grid-auto-rows` 와 동일한 효과를 낼 수 있다. `grid-template-columns: repeat(auto-fill, minmax(20%, auto));`
+
 `minmax` 는 최소, 최대를 의미한다. 따라서 `row` 의 최소는 150px 최대는 내부요소의 크기에 따른다.
 
 ### `grid-auto-rows`
@@ -155,4 +157,22 @@
 [align-self](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
 
 [justfi-self](https://developer.mozilla.org/en-US/docs/Web/CSS/justify-self)
+
+## IE!!
+
+> [https://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/](https://www.w3.org/TR/2011/WD-css3-grid-layout-20110407/)
+
+| 표준 | IE |
+| :--- | :--- |
+| `display: flex` | `display: -ms-grid` |
+| `grid-template-rows` | `-ms-grid-rows` |
+| `grid-template-columns` | `-ms-grid-columns` |
+| `grid-row-start` | `-ms-grid-row` |
+| `grid-column-start` | `-ms-grid-column` |
+| `grid-row: 1/ 3` === `grid-row: 1 / span 2` | `-ms-grid-row-span: 2` |
+| `grid-column: 1 / 3` === `grid-column: 1 / span 2` | `-ms-grid-column-span:2` |
+| `align-self` | `-ms-grid-row-align` |
+| `justify-self` | `-ms-grid-column-align` |
+
+
 

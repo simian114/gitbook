@@ -1,7 +1,5 @@
-# index
+# GRID
 
-> 당연하겠지만 멌있는건 IE에서는 잘되지 않는다. IE를 고려한다면.. 다른 방법을 찾자.
->
 > [LEARN GRID!](https://learncssgrid.com/)
 >
 > [1분코딩 이제는 GRID를 배워보자!](https://studiomeal.com/archives/533)

@@ -102,6 +102,7 @@
     * [Chapter7. 라우팅](undefined/rubyonrails/perfect-rubyonrails/chapter7..md)
     * [Chapter8. 테스트](undefined/rubyonrails/perfect-rubyonrails/chapter8..md)
 * [Javascript](undefined/javascript/README.md)
+  * [디바운싱과 쓰로틀링](undefined/javascript/undefined-1.md)
   * [Tagged Template Literal\(styled-components\)](undefined/javascript/tagged-template-literal-styled-components.md)
   * [IntersectionObserver 를  사용해서 스크롤 이벤트의 부하 줄여주기](undefined/javascript/intersectionobserver.md)
   * [EVENT LOOP](undefined/javascript/event-loop/README.md)

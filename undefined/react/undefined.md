@@ -249,3 +249,71 @@ export default useDebounce;
 
 3. 끝입니다...ㅎㅎ
 
+### **useDetectOutsideClick**
+
+#### 기능
+
+1. 타켓을 지정한다.
+2. 타켓의 외부가 클릭 된다면, 타켓의 `active` 상태를 변화시킨다.
+
+#### 설계
+
+1. 인자
+   1. `targetDom` 을 인자로 받는다. 즉 리액트에서는 `ref` 가 된다.
+   2. 초기값을 받는다.
+2. 리턴값
+   * `isActive` 
+3. 상태관리
+   * `isActive` 
+     * 해당 상태는 현재 `target`이 `active`인지 아닌지를 판단하게 해준다.
+4. effect
+   * 없다.
+
+#### 구현
+
+```javascript
+import { useState, useEffect } from 'react';
+
+export const useDetectOutsideClick = (targetRef, initialState) => {
+  const [isActive, setIsActive] = useState(initialState);
+
+  useEffect(() => {
+    const onClick = ({ target }) => {
+      if (targetRef.current !== null && !targetRef.current.contains(target)) {
+        setIsActive(!isActive);
+      }
+    };
+
+    if (isActive) {
+      window.addEventListener('click', onClick);
+    }
+
+    return () => {
+      window.removeEventListener('click', onClick);
+    };
+  }, [isActive, targetRef]);
+
+  return [isActive, setIsActive];
+};
+```
+
+#### 사용방법
+
+1. `target` 을 한다.
+
+   * `Dropdown` 을 지정한다.
+
+   ```javascript
+   const ref = useRef(null);
+   ```
+
+2. `isActive` 값을 어떻게 사용할지 결정한다.
+
+   * 우리는 외부가 눌려지면 드롭다운이 닫히면 되므로 `isActive` === `isOpen` 으로 사용하면 된다.
+
+   ```javascript
+   const [isOpened, setIsOpened] = useDetectOutsideClick(ref, false);
+   ```
+
+3. 끝....
+

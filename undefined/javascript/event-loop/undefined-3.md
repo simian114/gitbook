@@ -41,7 +41,7 @@ button.addEventListener('click', () => {
   const element = document.createElement('h1');
   document.body.appendChild(element);
   element.style.color = 'red';
-  element.style.innerText = 'hello world';
+  element.innerText = 'hello world';
 }
 ```
 

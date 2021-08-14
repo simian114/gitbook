@@ -48,7 +48,7 @@ export default axios;
 
 `jest.fn().mockResolvedValue` 안에 원하는 데이터를 넣으면 된다. 참고로 파일 구조는 아래와같다.
 
-![\_\_mock\_\_ &#xC774;&#xB984; &#xADDC;&#xCE59;!](../../../.gitbook/assets/2021-07-20-9.25.42.png)
+![\_\_mock\_\_ &#xC774;&#xB984; &#xADDC;&#xCE59;!](../../../.gitbook/assets/2021-07-20-9.25.42%20%281%29.png)
 
 그리고 하나 더 해줘야할 것이, `mock` 리셋을 매번해줘야한다. 해주지 않으면 에러가 발생. 아직 원인은 잘 모르겠다.
 

@@ -2,7 +2,7 @@
 
 ## 문제
 
-![&#xC5D0;&#xB7EC;&#xBA54;&#xC2DC;&#xC9C0;&#xB97C; &#xBCF4;&#xBA74; Link... Router...&#xAC00; &#xBCF4;&#xC778;&#xB2E4;.](../../../.gitbook/assets/link-.png)
+![&#xC5D0;&#xB7EC;&#xBA54;&#xC2DC;&#xC9C0;&#xB97C; &#xBCF4;&#xBA74; Link... Router...&#xAC00; &#xBCF4;&#xC778;&#xB2E4;.](../../../.gitbook/assets/link-%20%281%29.png)
 
 테스트를 작성할 때 아주 기본적인 테스트인데도 이렇게 에러가 나는 경우가 있다. 왜 그럴까? 이유는 위의 에러에 잘 나와있다. `Link` 컴포넌트는 `react-router-dom` 에서 제공하고 해당 컴포넌트를 사용하기 위해서는 `Router` 의 하위에서만 사용할 수 있는데 우리는 `TodoFooter` 라는 컴포넌트를 `isolation` 하기 위해 밖으로 빼서 사용하기 때문이다 .즉 `Router` 의 하위에서 `TodoFooter` 를 테스트하고 있지 않기 때문이다.
 

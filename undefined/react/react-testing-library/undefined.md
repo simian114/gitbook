@@ -18,13 +18,13 @@ screen 객체를 이용하면 렌더링 된 화면에 직접적으로 접근할 
 
 이렇게 접근해서 테스트 원하는 요소를 불러온 뒤 작업을 하면 됨. Screen 에는 요소를 선택하는 많은 함수가 있는데 아래의 규칙을 따른다. 대부분의 경우에는 `get` 을 이용한다. 만약 비동기를 사용해야한다면 `find` 를 사용하자.
 
-![selector... &#xC54C;&#xB9DE;&#xC740; &#xC120;&#xD0DD;&#xC790;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xC790;.](../../../.gitbook/assets/selector.png)
+![selector... &#xC54C;&#xB9DE;&#xC740; &#xC120;&#xD0DD;&#xC790;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xC790;.](../../../.gitbook/assets/selector%20%281%29.png)
 
 ## 테스트를 시작하자
 
 컴포넌트를 테스트할 때는 일반적으로 `__test__` 라는 이름을 갖는 폴더를 각 컴포넌트에 만들어준다. 그리고 해당 폴더에서 테스트 파일을 만든다.
 
-![&#xD3F4;&#xB354;&#xC758; &#xC774;&#xB984; &#xADDC;&#xCE59;&#xC740; &#xC9C0;&#xCF1C;&#xC8FC;&#xC790;](../../../.gitbook/assets/.png%20%284%29.png)
+![&#xD3F4;&#xB354;&#xC758; &#xC774;&#xB984; &#xADDC;&#xCE59;&#xC740; &#xC9C0;&#xCF1C;&#xC8FC;&#xC790;](../../../.gitbook/assets/.png%20%287%29.png)
 
 테스트 파일은 아래처럼 작성하면 된다. 아래의 예시는 `get~, find~, query~,` 등의 `screen` 의 메서드를 이용해 요소를 잡아온다. 주목할건 `test-id` 를 이용해 잡아오는 예시.
 

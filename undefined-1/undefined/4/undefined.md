@@ -1,6 +1,6 @@
-# 4주차
+# 월요일
 
-{% page-ref page="../../undefined/javascript/var-let-const.md" %}
+{% page-ref page="../../../undefined/javascript/var-let-const.md" %}
 
 이번 과제는 솔라커넥트에서 나온 과제다. 구현이 딱히 어렵다거나 그러지는 않았다. 다만 정렬 알고리즘을 직접 구현해야했기 때문에 오랜만에 책을 폈다. 월요일 수업에 대한 정리로 `var, let, const` 의 차이에 대해 정리해봤다.
 

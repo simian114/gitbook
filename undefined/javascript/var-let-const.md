@@ -1,5 +1,13 @@
 # var, let, const 차이
 
+
+
+{% embed url="https://curryyou.tistory.com/192" caption="참고 블로그" %}
+
+{% embed url="https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/var" caption="var와 호이스팅" %}
+
+{% embed url="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let" caption="let 과 TDZ" %}
+
 ## var 에 대해 알아보자
 
 > 자바스크립트를 처음 사용할 때 부터 `var` 의 존재는 익히 들어 알고있었지만, 사용해본적은 없었다. 이참에 알아보자.
@@ -223,6 +231,37 @@ let test = 10;
 ```
 
 만약 아래의 `let test = 20` 라인이 없다면 콘솔로그는 `10` 이 나와야한다.. 하지만 초기화전에는 접근할 수 없다는 에러메시지가 나온다. 왜? 왜냐면 블록스코프에 존재하는 `test` 라는 변수가 호이스팅 되서 위에서 선언되었기 때문이다. 따라서 상위 스코프에 있는 `test` 가 무시되고 하위 스코프의 `test` 를 참조하게 되는데, 로그 이후에 초기화가 되므로 이런 에러가 나오는 것.
+
+#### TDZ를 조금 더 살펴보자.
+
+> [MDN을 보자](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+
+아래의 예시는 잘 동작한다. `func` 함수에서 사용되는 `letVar` 변수가 함수표현식 이후에 선언 및 초기화 되고 있지만, 선언 자체는 호이스팅으로 문제 없이 되고, 함수의 호출은 `letVar`의 `TDZ` 이후에 일어나기 때문이다!
+
+```javascript
+// letVar TDZ starts
+const func = () => console.log(letVar);
+
+let letVar = 3;
+// letVar TDZ ends
+func();
+```
+
+아래의 코드에서는 왜 에러가 발생했을까? 그리고 어떻게 `if` 문 안으로 들어간 걸까?
+
+* if의 foo는 `var foo` 다. 따라서 `if`  블록 안으로 들어가게 된다.
+* 블록스코프에서 `foo` 가 선언되었다. 따라서 상위 스코프의 `foo` 는 무시되고 블록에서 선언된 `foo` 를 사용하게된다.
+* 여기서 문제가 발생한다. 지금 `foo` 는 선언및 초기화 과정에서 자기 자신의 값을 사용하려고한다. 하지만 우리는 실행 순서가 무엇인지 알고 있다. 할당 연산자를 사용할 때는 2번째 항이 먼저 계산된다. 즉 `foo` 는 초기화를 하기도 전에 자기 자신을 참조하고 있는것. 따라서 에러가 발생함
+
+```javascript
+function test(){
+   var foo = 33;
+   if(foo) {
+      let foo = (foo + 55); // ReferenceError
+   }
+}
+test();
+```
 
 ### 5. 전역객체 프로퍼티 여부
 

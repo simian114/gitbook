@@ -180,5 +180,3 @@ const handleDrop = (e: React.DragEvent<HTMLDivElement>) => {
 2. `callback()`
    * `todo` 요소의 위치를 바꾸는 함수다.
 
-처음에는 [모던 자바스크립트 듀토리얼의 Drag and Drop Mouse Event](https://ko.javascript.info/mouse-drag-and-drop) 를 참고했다. 해당 문서는 `mouseover` 등의 이벤트와 요소들의 좌표를 이용해서 `Drag & Drop` 을 이용한다. 처음에 이 방법을 사용하려고 했다가 시간이 너무 걸릴거 같아서 1차로 포기를 했
-

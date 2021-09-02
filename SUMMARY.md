@@ -217,6 +217,8 @@
     * [Mocking 하기](undefined/react/react-testing-library/mocking.md)
   * [CRA로 만든 앱에서 절대경로로 import 해오기\(alias하기\)](undefined/react/cra-import-alias.md)
   * [커스텀 훅 만들기](undefined/react/undefined.md)
+* [타입스크립트](undefined/undefined-3/README.md)
+  * [조건부타입 \(Conditional types\)](undefined/undefined-3/conditional-types.md)
 * [기타](undefined/undefined/README.md)
   * [UUID](undefined/undefined/uuid.md)
   * [구글애널리틱스 설치하기](undefined/undefined/undefined-1.md)

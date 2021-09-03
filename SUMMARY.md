@@ -221,6 +221,7 @@
   * [조건부타입 \(Conditional types\)](undefined/undefined-3/conditional-types.md)
   * [타입 챌린지](undefined/undefined-3/undefined/README.md)
     * [0. Awaited](undefined/undefined-3/undefined/0.-awaited.md)
+    * [1. Concat](undefined/undefined-3/undefined/1.-concat.md)
 * [기타](undefined/undefined/README.md)
   * [협업 프로세스](undefined/undefined/undefined-2.md)
   * [UUID](undefined/undefined/uuid.md)

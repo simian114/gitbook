@@ -221,6 +221,7 @@
   * [조건부타입 \(Conditional types\)](undefined/undefined-3/conditional-types.md)
   * [Generics](undefined/undefined-3/generics.md)
   * [Keyof 타입 오퍼레이터](undefined/undefined-3/keyof.md)
+  * [Indexed Access Types](undefined/undefined-3/indexed-access-types.md)
   * [타입 챌린지](undefined/undefined-3/undefined/README.md)
     * [00. Awaited](undefined/undefined-3/undefined/0.-awaited.md)
     * [01. Concat](undefined/undefined-3/undefined/1.-concat.md)

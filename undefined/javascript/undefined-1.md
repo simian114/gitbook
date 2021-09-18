@@ -58,6 +58,22 @@ description: '로대쉬의 DOC 을 보면 매우 쉽게 이해, 사용이 가능
  throttledBox.addEventListener('mousemove', throttledFunc);
 ```
 
+#### 직접 구현
+
+```javascript
+const throttle = (fn, wait) => {
+  let timeId = null;
+  return (...args) => {
+    if (!timeId) {
+      timeId = setTimeout(() => {
+        fn(...args);
+        timeId = null;
+      }, wait);
+    }
+  };
+};
+```
+
 ### 디바운스
 
 > debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked.
@@ -72,6 +88,21 @@ description: '로대쉬의 DOC 을 보면 매우 쉽게 이해, 사용이 가능
 const debouncedBox = document.querySelector('.debounced-box');
 const debouncedFunc = _.debounce(() => console.log('debounced box mouse move!'), 1000);
 debouncedBox.addEventListener('mousemove', debouncedFunc);
+```
+
+#### 직접 구현
+
+```javascript
+const debounce = (fn, millesecond) => {
+  let timeId = null;
+  return (...args) => {
+    if (timeId) clearTimeout(timeId);
+    timeId = setTimeout(() => {
+      fn(...args);
+      timeId = null;
+    }, millesecond);
+  };
+};
 ```
 
 ### 결과

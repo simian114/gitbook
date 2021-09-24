@@ -128,3 +128,31 @@ service cloud.firestore {
 }
 ```
 
+## 조건 검사를 더 멋있게 할 수는 없을까?
+
+> [`function` 을 만들어서 추상화를 시킬 수 있다!!](https://firebase.google.com/docs/firestore/security/rules-conditions)
+
+너무 쉽기 때문에.... 바로 코드를 보자!
+
+```text
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth.uid != null;
+    }
+    function hasAuthority() {
+      return resource.data.user == request.auth.uid
+    }
+    match /users/{document} {
+      allow read, write: if true
+    }
+    match /todos/{document} {
+      allow read, create: if isSignedIn()
+      allow delete, update: if isSignedIn() && hasAuthority();
+    }
+  }
+}
+```
+
+
+

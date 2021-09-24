@@ -236,6 +236,8 @@
       * [09. Tuple to Object](undefined/undefined-3/undefined/easy/09.-tuple-to-object.md)
     * [mediun](undefined/undefined-3/undefined/mediun/README.md)
       * [01. Absolute](undefined/undefined-3/undefined/mediun/01.-absolute.md)
+* [Firebase](undefined/firebase/README.md)
+  * [파이어스토어 규칙](undefined/firebase/undefined.md)
 * [기타](undefined/undefined/README.md)
   * [협업 프로세스](undefined/undefined/undefined-2.md)
   * [UUID](undefined/undefined/uuid.md)
